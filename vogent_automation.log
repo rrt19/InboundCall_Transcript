@@ -1,0 +1,84 @@
+2025-10-05 22:11:49,201 - ERROR - VOGENT_API_KEY environment variable not set!
+2025-10-05 22:13:39,617 - ERROR - VOGENT_API_KEY environment variable not set!
+2025-10-05 22:18:57,934 - ERROR - VOGENT_API_KEY environment variable not set!
+2025-10-05 22:20:11,917 - ERROR - VOGENT_API_KEY environment variable not set!
+2025-10-05 22:21:59,029 - ERROR - VOGENT_API_KEY environment variable not set!
+2025-10-05 22:24:21,525 - ERROR - VOGENT_API_KEY environment variable not set!
+2025-10-05 22:26:20,407 - ERROR - VOGENT_API_KEY environment variable not set!
+2025-10-05 22:26:20,407 - ERROR - Please create a .env file with your Vogent API key:
+2025-10-05 22:26:20,407 - ERROR - Example content for .env file:
+2025-10-05 22:26:20,407 - ERROR - VOGENT_API_KEY=elto_your_actual_api_key_here
+2025-10-05 22:26:45,504 - ERROR - VOGENT_API_KEY environment variable not set!
+2025-10-05 22:26:45,504 - ERROR - Please create a .env file with your Vogent API key:
+2025-10-05 22:26:45,504 - ERROR - Example content for .env file:
+2025-10-05 22:26:45,504 - ERROR - VOGENT_API_KEY=elto_your_actual_api_key_here
+2025-10-05 22:27:32,431 - ERROR - VOGENT_API_KEY environment variable not set!
+2025-10-05 22:27:32,431 - ERROR - Please create a .env file with your Vogent API key:
+2025-10-05 22:27:32,431 - ERROR - Example content for .env file:
+2025-10-05 22:27:32,431 - ERROR - VOGENT_API_KEY=elto_your_actual_api_key_here
+2025-10-05 22:31:22,398 - INFO - Created output directory: transcripts
+2025-10-05 22:31:22,400 - INFO - Starting Vogent Transcript Automation Server
+2025-10-05 22:31:22,402 - INFO - Transcripts will be saved to: transcripts
+2025-10-05 22:31:22,423 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.161:5000
+2025-10-05 22:31:22,423 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-05 22:33:22,548 - INFO - 127.0.0.1 - - [05/Oct/2025 22:33:22] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-05 22:33:42,288 - INFO - 192.168.1.161 - - [05/Oct/2025 22:33:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-05 22:34:48,533 - INFO - 192.168.1.161 - - [05/Oct/2025 22:34:48] "[31m[1mGET /webhook/vogent HTTP/1.1[0m" 405 -
+2025-10-05 22:34:51,092 - INFO - 192.168.1.161 - - [05/Oct/2025 22:34:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-05 22:38:16,498 - INFO - Starting Vogent Transcript Automation Server
+2025-10-05 22:38:16,498 - INFO - Transcripts will be saved to: transcripts
+2025-10-05 22:38:16,512 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.161:5000
+2025-10-05 22:38:16,512 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-05 22:43:52,499 - INFO - Starting Vogent Transcript Automation Server
+2025-10-05 22:43:52,500 - INFO - Transcripts will be saved to: transcripts
+2025-10-05 22:43:52,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.161:5000
+2025-10-05 22:43:52,520 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-05 22:44:55,114 - INFO - 127.0.0.1 - - [05/Oct/2025 22:44:55] "[33mGET /test-call/YOUR_DIAL_ID_HERE HTTP/1.1[0m" 404 -
+2025-10-05 22:44:58,581 - INFO - 127.0.0.1 - - [05/Oct/2025 22:44:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-05 22:49:11,794 - INFO - Starting Vogent Transcript Automation Server
+2025-10-05 22:49:11,794 - INFO - Transcripts will be saved to: transcripts
+2025-10-05 22:49:11,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.161:5000
+2025-10-05 22:49:11,823 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 00:21:14,144 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 00:21:14,144 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 00:21:14,172 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 00:21:14,172 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 00:21:29,269 - INFO - 127.0.0.1 - - [06/Oct/2025 00:21:29] "GET / HTTP/1.1" 200 -
+2025-10-06 00:23:02,753 - INFO - 127.0.0.1 - - [06/Oct/2025 00:23:02] "[32mPOST /test-dial-input HTTP/1.1[0m" 302 -
+2025-10-06 00:23:02,784 - INFO - Fetching dial info for ID: 4a110a49-356a-4e47-9ba9-c4adc3252dac
+2025-10-06 00:23:03,890 - INFO - Successfully retrieved dial info for 4a110a49-356a-4e47-9ba9-c4adc3252dac
+2025-10-06 00:23:03,899 - INFO - Transcript ready for dial 4a110a49-356a-4e47-9ba9-c4adc3252dac
+2025-10-06 00:23:03,925 - INFO - Transcript saved to: transcripts\transcript_4a110a49-356a-4e47-9ba9-c4adc3252dac_20251006_002303.txt
+2025-10-06 00:23:03,930 - INFO - Raw dial data saved to: transcripts\raw_dial_4a110a49-356a-4e47-9ba9-c4adc3252dac_20251006_002303.json
+2025-10-06 00:23:03,931 - INFO - 127.0.0.1 - - [06/Oct/2025 00:23:03] "GET /test-call/4a110a49-356a-4e47-9ba9-c4adc3252dac HTTP/1.1" 200 -
+2025-10-06 00:26:21,811 - INFO - 127.0.0.1 - - [06/Oct/2025 00:26:21] "GET / HTTP/1.1" 200 -
+2025-10-06 00:26:33,170 - INFO - 127.0.0.1 - - [06/Oct/2025 00:26:33] "[32mPOST /test-dial-input HTTP/1.1[0m" 302 -
+2025-10-06 00:26:33,188 - INFO - Fetching dial info for ID: 105b2f00-ce32-4533-88ae-47d3dbdc41ba
+2025-10-06 00:26:34,252 - INFO - Successfully retrieved dial info for 105b2f00-ce32-4533-88ae-47d3dbdc41ba
+2025-10-06 00:26:34,263 - INFO - Transcript ready for dial 105b2f00-ce32-4533-88ae-47d3dbdc41ba
+2025-10-06 00:26:34,265 - INFO - Transcript saved to: transcripts\transcript_105b2f00-ce32-4533-88ae-47d3dbdc41ba_20251006_002634.txt
+2025-10-06 00:26:34,269 - INFO - Raw dial data saved to: transcripts\raw_dial_105b2f00-ce32-4533-88ae-47d3dbdc41ba_20251006_002634.json
+2025-10-06 00:26:34,272 - INFO - 127.0.0.1 - - [06/Oct/2025 00:26:34] "GET /test-call/105b2f00-ce32-4533-88ae-47d3dbdc41ba HTTP/1.1" 200 -
+2025-10-06 00:29:42,164 - INFO - 127.0.0.1 - - [06/Oct/2025 00:29:42] "GET / HTTP/1.1" 200 -
+2025-10-06 00:29:46,501 - INFO - 127.0.0.1 - - [06/Oct/2025 00:29:46] "[32mPOST /test-dial-input HTTP/1.1[0m" 302 -
+2025-10-06 00:29:46,521 - INFO - Fetching dial info for ID: 45605165-9d56-43dc-ac1e-dacec29db9d4
+2025-10-06 00:29:47,600 - INFO - Successfully retrieved dial info for 45605165-9d56-43dc-ac1e-dacec29db9d4
+2025-10-06 00:29:47,614 - INFO - Transcript ready for dial 45605165-9d56-43dc-ac1e-dacec29db9d4
+2025-10-06 00:29:47,624 - INFO - Transcript saved to: transcripts\transcript_45605165-9d56-43dc-ac1e-dacec29db9d4_20251006_002947.txt
+2025-10-06 00:29:47,634 - INFO - Raw dial data saved to: transcripts\raw_dial_45605165-9d56-43dc-ac1e-dacec29db9d4_20251006_002947.json
+2025-10-06 00:29:47,640 - INFO - 127.0.0.1 - - [06/Oct/2025 00:29:47] "GET /test-call/45605165-9d56-43dc-ac1e-dacec29db9d4 HTTP/1.1" 200 -
