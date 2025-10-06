@@ -82,3 +82,1058 @@
 2025-10-06 00:29:47,624 - INFO - Transcript saved to: transcripts\transcript_45605165-9d56-43dc-ac1e-dacec29db9d4_20251006_002947.txt
 2025-10-06 00:29:47,634 - INFO - Raw dial data saved to: transcripts\raw_dial_45605165-9d56-43dc-ac1e-dacec29db9d4_20251006_002947.json
 2025-10-06 00:29:47,640 - INFO - 127.0.0.1 - - [06/Oct/2025 00:29:47] "GET /test-call/45605165-9d56-43dc-ac1e-dacec29db9d4 HTTP/1.1" 200 -
+2025-10-06 01:27:41,151 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 01:27:41,151 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 01:27:41,151 - INFO - Fetching recent dials (limit: 20)
+2025-10-06 01:27:41,151 - INFO - Auto-discovery service started (checking every 30s)
+2025-10-06 01:27:41,161 - INFO - Auto-discovery service started automatically
+2025-10-06 01:27:41,178 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 01:27:41,178 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 01:27:41,753 - ERROR - Failed to get recent dials: 405 - 
+2025-10-06 01:28:11,765 - INFO - Fetching recent dials (limit: 20)
+2025-10-06 01:28:12,275 - ERROR - Failed to get recent dials: 405 - 
+2025-10-06 01:28:42,280 - INFO - Fetching recent dials (limit: 20)
+2025-10-06 01:28:42,827 - ERROR - Failed to get recent dials: 405 - 
+2025-10-06 01:28:57,896 - INFO - 127.0.0.1 - - [06/Oct/2025 01:28:57] "GET / HTTP/1.1" 200 -
+2025-10-06 01:29:12,839 - INFO - Fetching recent dials (limit: 20)
+2025-10-06 01:29:13,338 - ERROR - Failed to get recent dials: 405 - 
+2025-10-06 01:29:34,207 - INFO - 127.0.0.1 - - [06/Oct/2025 01:29:34] "GET / HTTP/1.1" 200 -
+2025-10-06 01:29:43,347 - INFO - Fetching recent dials (limit: 20)
+2025-10-06 01:29:43,854 - ERROR - Failed to get recent dials: 405 - 
+2025-10-06 01:30:07,598 - INFO - 127.0.0.1 - - [06/Oct/2025 01:30:07] "GET / HTTP/1.1" 200 -
+2025-10-06 01:30:13,870 - INFO - Fetching recent dials (limit: 20)
+2025-10-06 01:30:14,348 - ERROR - Failed to get recent dials: 405 - 
+2025-10-06 01:30:40,956 - INFO - 127.0.0.1 - - [06/Oct/2025 01:30:40] "GET / HTTP/1.1" 200 -
+2025-10-06 01:30:44,350 - INFO - Fetching recent dials (limit: 20)
+2025-10-06 01:30:45,104 - ERROR - Failed to get recent dials: 405 - 
+2025-10-06 01:31:14,417 - INFO - 127.0.0.1 - - [06/Oct/2025 01:31:14] "GET / HTTP/1.1" 200 -
+2025-10-06 01:31:15,109 - INFO - Fetching recent dials (limit: 20)
+2025-10-06 01:31:15,691 - ERROR - Failed to get recent dials: 405 - 
+2025-10-06 01:31:34,780 - INFO - Shutting down...
+2025-10-06 01:31:39,788 - INFO - Auto-discovery service stopped
+2025-10-06 01:32:57,971 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 01:32:57,973 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 01:33:00,041 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:33:00,041 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:33:00,044 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-06 01:33:00,046 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-06 01:33:00,048 - INFO - Auto-discovery service started automatically
+2025-10-06 01:33:00,062 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 01:33:00,062 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 01:33:02,164 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:33:02,164 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:33:02,178 - INFO - Recent dials API unavailable - switching to webhook-only mode
+2025-10-06 01:33:10,038 - INFO - 127.0.0.1 - - [06/Oct/2025 01:33:10] "GET / HTTP/1.1" 200 -
+2025-10-06 01:33:20,182 - WARNING - Auto-discovery service is already running
+2025-10-06 01:33:20,185 - INFO - 127.0.0.1 - - [06/Oct/2025 01:33:20] "GET /auto-discovery/start HTTP/1.1" 200 -
+2025-10-06 01:34:15,779 - INFO - 127.0.0.1 - - [06/Oct/2025 01:34:15] "GET / HTTP/1.1" 200 -
+2025-10-06 01:34:19,966 - INFO - 127.0.0.1 - - [06/Oct/2025 01:34:19] "GET / HTTP/1.1" 200 -
+2025-10-06 01:34:50,859 - INFO - 127.0.0.1 - - [06/Oct/2025 01:34:50] "GET / HTTP/1.1" 200 -
+2025-10-06 01:35:04,749 - INFO - 127.0.0.1 - - [06/Oct/2025 01:35:04] "GET / HTTP/1.1" 200 -
+2025-10-06 01:35:08,239 - INFO - 127.0.0.1 - - [06/Oct/2025 01:35:08] "GET / HTTP/1.1" 200 -
+2025-10-06 01:35:09,069 - INFO - 127.0.0.1 - - [06/Oct/2025 01:35:09] "GET / HTTP/1.1" 200 -
+2025-10-06 01:35:40,017 - INFO - 127.0.0.1 - - [06/Oct/2025 01:35:40] "GET / HTTP/1.1" 200 -
+2025-10-06 01:35:49,399 - INFO - 127.0.0.1 - - [06/Oct/2025 01:35:49] "GET / HTTP/1.1" 200 -
+2025-10-06 01:35:51,158 - INFO - 127.0.0.1 - - [06/Oct/2025 01:35:51] "GET / HTTP/1.1" 200 -
+2025-10-06 01:35:55,129 - WARNING - Auto-discovery service is already running
+2025-10-06 01:35:55,129 - INFO - 127.0.0.1 - - [06/Oct/2025 01:35:55] "GET /auto-discovery/start HTTP/1.1" 200 -
+2025-10-06 01:35:56,887 - INFO - 127.0.0.1 - - [06/Oct/2025 01:35:56] "GET / HTTP/1.1" 200 -
+2025-10-06 01:36:27,778 - INFO - 127.0.0.1 - - [06/Oct/2025 01:36:27] "GET / HTTP/1.1" 200 -
+2025-10-06 01:37:54,653 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 01:37:54,653 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 01:37:56,708 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:37:56,710 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:37:56,715 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-06 01:37:56,717 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-06 01:37:56,720 - INFO - Auto-discovery service started automatically
+2025-10-06 01:37:56,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 01:37:56,751 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 01:37:58,916 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:37:58,919 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:37:58,926 - INFO - Recent dials API unavailable - switching to webhook-only mode
+2025-10-06 01:38:25,538 - INFO - 127.0.0.1 - - [06/Oct/2025 01:38:25] "GET / HTTP/1.1" 200 -
+2025-10-06 01:38:32,501 - WARNING - Auto-discovery service is already running
+2025-10-06 01:38:32,502 - INFO - 127.0.0.1 - - [06/Oct/2025 01:38:32] "GET /auto-discovery/start HTTP/1.1" 200 -
+2025-10-06 01:39:17,096 - INFO - 127.0.0.1 - - [06/Oct/2025 01:39:17] "GET / HTTP/1.1" 200 -
+2025-10-06 01:39:22,050 - INFO - 127.0.0.1 - - [06/Oct/2025 01:39:22] "GET / HTTP/1.1" 200 -
+2025-10-06 01:39:39,510 - INFO - 127.0.0.1 - - [06/Oct/2025 01:39:39] "GET / HTTP/1.1" 200 -
+2025-10-06 01:39:44,330 - WARNING - Auto-discovery service is already running
+2025-10-06 01:39:44,341 - INFO - 127.0.0.1 - - [06/Oct/2025 01:39:44] "GET /auto-discovery/start HTTP/1.1" 200 -
+2025-10-06 01:39:46,910 - INFO - 127.0.0.1 - - [06/Oct/2025 01:39:46] "GET / HTTP/1.1" 200 -
+2025-10-06 01:39:52,752 - INFO - 127.0.0.1 - - [06/Oct/2025 01:39:52] "GET / HTTP/1.1" 200 -
+2025-10-06 01:40:17,676 - INFO - 127.0.0.1 - - [06/Oct/2025 01:40:17] "GET / HTTP/1.1" 200 -
+2025-10-06 01:40:25,247 - INFO - 127.0.0.1 - - [06/Oct/2025 01:40:25] "GET / HTTP/1.1" 200 -
+2025-10-06 01:40:48,538 - INFO - 127.0.0.1 - - [06/Oct/2025 01:40:48] "GET / HTTP/1.1" 200 -
+2025-10-06 01:40:59,023 - INFO - 127.0.0.1 - - [06/Oct/2025 01:40:59] "GET / HTTP/1.1" 200 -
+2025-10-06 01:41:21,180 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:41:21,183 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:41:21,183 - INFO - 127.0.0.1 - - [06/Oct/2025 01:41:21] "GET /recent-dials HTTP/1.1" 200 -
+2025-10-06 01:41:32,248 - INFO - 127.0.0.1 - - [06/Oct/2025 01:41:32] "GET / HTTP/1.1" 200 -
+2025-10-06 01:41:32,409 - INFO - 127.0.0.1 - - [06/Oct/2025 01:41:32] "GET / HTTP/1.1" 200 -
+2025-10-06 01:41:37,833 - INFO - Manual check triggered
+2025-10-06 01:41:37,833 - INFO - 127.0.0.1 - - [06/Oct/2025 01:41:37] "GET /check-now HTTP/1.1" 200 -
+2025-10-06 01:41:42,291 - INFO - 127.0.0.1 - - [06/Oct/2025 01:41:42] "GET / HTTP/1.1" 200 -
+2025-10-06 01:41:46,229 - INFO - 127.0.0.1 - - [06/Oct/2025 01:41:46] "GET / HTTP/1.1" 200 -
+2025-10-06 01:41:51,240 - INFO - 127.0.0.1 - - [06/Oct/2025 01:41:51] "GET /notifications HTTP/1.1" 200 -
+2025-10-06 01:41:56,959 - INFO - 127.0.0.1 - - [06/Oct/2025 01:41:56] "GET / HTTP/1.1" 200 -
+2025-10-06 01:42:05,028 - INFO - 127.0.0.1 - - [06/Oct/2025 01:42:05] "GET / HTTP/1.1" 200 -
+2025-10-06 01:42:07,152 - INFO - 127.0.0.1 - - [06/Oct/2025 01:42:07] "GET / HTTP/1.1" 200 -
+2025-10-06 01:42:11,094 - INFO - 127.0.0.1 - - [06/Oct/2025 01:42:11] "GET / HTTP/1.1" 200 -
+2025-10-06 01:42:24,878 - INFO - 127.0.0.1 - - [06/Oct/2025 01:42:24] "GET / HTTP/1.1" 200 -
+2025-10-06 01:42:34,716 - INFO - 127.0.0.1 - - [06/Oct/2025 01:42:34] "GET / HTTP/1.1" 200 -
+2025-10-06 01:42:38,123 - INFO - 127.0.0.1 - - [06/Oct/2025 01:42:38] "GET / HTTP/1.1" 200 -
+2025-10-06 01:42:49,854 - INFO - 127.0.0.1 - - [06/Oct/2025 01:42:49] "GET / HTTP/1.1" 200 -
+2025-10-06 01:42:54,761 - INFO - 127.0.0.1 - - [06/Oct/2025 01:42:54] "GET / HTTP/1.1" 200 -
+2025-10-06 01:42:58,564 - INFO - 127.0.0.1 - - [06/Oct/2025 01:42:58] "GET / HTTP/1.1" 200 -
+2025-10-06 01:43:04,459 - INFO - 127.0.0.1 - - [06/Oct/2025 01:43:04] "GET / HTTP/1.1" 200 -
+2025-10-06 01:43:09,500 - WARNING - Auto-discovery service is already running
+2025-10-06 01:43:09,500 - INFO - 127.0.0.1 - - [06/Oct/2025 01:43:09] "GET /auto-discovery/start HTTP/1.1" 200 -
+2025-10-06 01:43:11,028 - INFO - 127.0.0.1 - - [06/Oct/2025 01:43:11] "GET / HTTP/1.1" 200 -
+2025-10-06 01:43:13,068 - INFO - 127.0.0.1 - - [06/Oct/2025 01:43:13] "GET / HTTP/1.1" 200 -
+2025-10-06 01:43:18,125 - INFO - 127.0.0.1 - - [06/Oct/2025 01:43:18] "GET / HTTP/1.1" 200 -
+2025-10-06 01:43:39,919 - INFO - Shutting down...
+2025-10-06 01:43:44,921 - INFO - Auto-discovery service stopped
+2025-10-06 01:44:53,021 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 01:44:53,021 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 01:44:55,002 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:44:55,005 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:44:55,010 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-06 01:44:55,010 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-06 01:44:55,015 - INFO - Auto-discovery service started automatically
+2025-10-06 01:44:55,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 01:44:55,037 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 01:44:57,164 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:44:57,164 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:44:57,168 - INFO - Recent dials API unavailable - switching to webhook-only mode
+2025-10-06 01:45:21,089 - INFO - 127.0.0.1 - - [06/Oct/2025 01:45:21] "GET / HTTP/1.1" 200 -
+2025-10-06 01:45:36,552 - INFO - 127.0.0.1 - - [06/Oct/2025 01:45:36] "GET / HTTP/1.1" 200 -
+2025-10-06 01:45:42,043 - INFO - 127.0.0.1 - - [06/Oct/2025 01:45:42] "[32mPOST /test-dial-input HTTP/1.1[0m" 302 -
+2025-10-06 01:45:42,070 - INFO - Fetching dial info for ID: 4a110a49-356a-4e47-9ba9-c4adc3252dac
+2025-10-06 01:45:42,679 - INFO - Successfully retrieved dial info for 4a110a49-356a-4e47-9ba9-c4adc3252dac
+2025-10-06 01:45:42,681 - INFO - Transcript ready for dial 4a110a49-356a-4e47-9ba9-c4adc3252dac
+2025-10-06 01:45:42,722 - INFO - Transcript saved to: transcripts\transcript_4a110a49-356a-4e47-9ba9-c4adc3252dac_20251006_014542.txt
+2025-10-06 01:45:42,722 - INFO - Raw dial data saved to: transcripts\raw_dial_4a110a49-356a-4e47-9ba9-c4adc3252dac_20251006_014542.json
+2025-10-06 01:45:42,728 - INFO - 127.0.0.1 - - [06/Oct/2025 01:45:42] "GET /test-call/4a110a49-356a-4e47-9ba9-c4adc3252dac HTTP/1.1" 200 -
+2025-10-06 01:45:55,455 - INFO - 127.0.0.1 - - [06/Oct/2025 01:45:55] "GET / HTTP/1.1" 200 -
+2025-10-06 01:46:27,587 - INFO - 127.0.0.1 - - [06/Oct/2025 01:46:27] "GET / HTTP/1.1" 200 -
+2025-10-06 01:47:00,471 - INFO - 127.0.0.1 - - [06/Oct/2025 01:47:00] "GET / HTTP/1.1" 200 -
+2025-10-06 01:47:34,134 - INFO - 127.0.0.1 - - [06/Oct/2025 01:47:34] "GET / HTTP/1.1" 200 -
+2025-10-06 01:48:07,393 - INFO - 127.0.0.1 - - [06/Oct/2025 01:48:07] "GET / HTTP/1.1" 200 -
+2025-10-06 01:48:38,786 - INFO - Shutting down...
+2025-10-06 01:48:41,121 - INFO - 127.0.0.1 - - [06/Oct/2025 01:48:41] "GET / HTTP/1.1" 200 -
+2025-10-06 01:48:43,790 - INFO - Auto-discovery service stopped
+2025-10-06 01:49:47,275 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 01:49:47,275 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 01:49:49,316 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:49:49,316 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:49:49,323 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-06 01:49:49,323 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-06 01:49:49,334 - INFO - Auto-discovery service started automatically
+2025-10-06 01:49:49,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 01:49:49,366 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 01:49:51,326 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:49:51,327 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:49:51,330 - INFO - Recent dials API unavailable - switching to webhook-only mode
+2025-10-06 01:49:57,661 - INFO - 127.0.0.1 - - [06/Oct/2025 01:49:57] "GET / HTTP/1.1" 200 -
+2025-10-06 01:50:33,641 - INFO - 127.0.0.1 - - [06/Oct/2025 01:50:33] "GET / HTTP/1.1" 200 -
+2025-10-06 01:51:06,832 - INFO - 127.0.0.1 - - [06/Oct/2025 01:51:06] "GET / HTTP/1.1" 200 -
+2025-10-06 01:51:39,736 - INFO - 127.0.0.1 - - [06/Oct/2025 01:51:39] "GET / HTTP/1.1" 200 -
+2025-10-06 01:52:14,594 - INFO - 127.0.0.1 - - [06/Oct/2025 01:52:14] "GET / HTTP/1.1" 200 -
+2025-10-06 01:52:48,270 - INFO - 127.0.0.1 - - [06/Oct/2025 01:52:48] "GET / HTTP/1.1" 200 -
+2025-10-06 01:53:21,890 - INFO - 127.0.0.1 - - [06/Oct/2025 01:53:21] "GET / HTTP/1.1" 200 -
+2025-10-06 01:53:55,184 - INFO - 127.0.0.1 - - [06/Oct/2025 01:53:55] "GET / HTTP/1.1" 200 -
+2025-10-06 01:54:27,646 - INFO - 127.0.0.1 - - [06/Oct/2025 01:54:27] "GET / HTTP/1.1" 200 -
+2025-10-06 01:55:03,171 - INFO - 127.0.0.1 - - [06/Oct/2025 01:55:03] "GET / HTTP/1.1" 200 -
+2025-10-06 01:55:12,104 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 01:55:12,106 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 01:55:14,201 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:55:14,201 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:55:14,213 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-06 01:55:14,217 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-06 01:55:14,221 - INFO - Auto-discovery service started automatically
+2025-10-06 01:55:14,256 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 01:55:14,256 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 01:55:16,241 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:55:16,241 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:55:16,249 - INFO - Recent dials API unavailable - switching to webhook-only mode
+2025-10-06 01:55:36,339 - INFO - 127.0.0.1 - - [06/Oct/2025 01:55:36] "GET / HTTP/1.1" 200 -
+2025-10-06 01:56:10,131 - INFO - 127.0.0.1 - - [06/Oct/2025 01:56:10] "GET / HTTP/1.1" 200 -
+2025-10-06 01:56:44,264 - INFO - 127.0.0.1 - - [06/Oct/2025 01:56:44] "GET / HTTP/1.1" 200 -
+2025-10-06 01:57:17,183 - INFO - 127.0.0.1 - - [06/Oct/2025 01:57:17] "GET / HTTP/1.1" 200 -
+2025-10-06 01:57:24,071 - INFO - 127.0.0.1 - - [06/Oct/2025 01:57:24] "GET / HTTP/1.1" 200 -
+2025-10-06 01:57:50,823 - INFO - 127.0.0.1 - - [06/Oct/2025 01:57:50] "GET / HTTP/1.1" 200 -
+2025-10-06 01:57:56,964 - INFO - 127.0.0.1 - - [06/Oct/2025 01:57:56] "GET / HTTP/1.1" 200 -
+2025-10-06 01:58:24,522 - INFO - 127.0.0.1 - - [06/Oct/2025 01:58:24] "GET / HTTP/1.1" 200 -
+2025-10-06 01:58:29,287 - INFO - 127.0.0.1 - - [06/Oct/2025 01:58:29] "GET / HTTP/1.1" 200 -
+2025-10-06 01:58:40,497 - INFO - Shutting down...
+2025-10-06 01:58:45,499 - INFO - Auto-discovery service stopped
+2025-10-06 01:58:57,974 - INFO - 127.0.0.1 - - [06/Oct/2025 01:58:57] "GET / HTTP/1.1" 200 -
+2025-10-06 01:59:03,405 - INFO - 127.0.0.1 - - [06/Oct/2025 01:59:03] "GET / HTTP/1.1" 200 -
+2025-10-06 01:59:04,711 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 01:59:04,713 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 01:59:07,408 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:59:07,410 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:59:07,413 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-06 01:59:07,415 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-06 01:59:07,417 - INFO - Auto-discovery service started automatically
+2025-10-06 01:59:07,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 01:59:07,440 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 01:59:10,048 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:59:10,048 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:59:10,055 - INFO - Recent dials API unavailable - switching to webhook-only mode
+2025-10-06 01:59:31,189 - INFO - 127.0.0.1 - - [06/Oct/2025 01:59:31] "GET / HTTP/1.1" 200 -
+2025-10-06 01:59:37,278 - INFO - 127.0.0.1 - - [06/Oct/2025 01:59:37] "GET / HTTP/1.1" 200 -
+2025-10-06 01:59:56,082 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 01:59:56,082 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 01:59:58,106 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 01:59:58,110 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 01:59:58,114 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-06 01:59:58,116 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-06 01:59:58,118 - INFO - Auto-discovery service started automatically
+2025-10-06 01:59:58,139 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 01:59:58,139 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 02:00:00,167 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 02:00:00,167 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 02:00:00,177 - INFO - Recent dials API unavailable - switching to webhook-only mode
+2025-10-06 02:00:05,034 - INFO - 127.0.0.1 - - [06/Oct/2025 02:00:05] "GET / HTTP/1.1" 200 -
+2025-10-06 02:00:11,294 - INFO - 127.0.0.1 - - [06/Oct/2025 02:00:11] "GET / HTTP/1.1" 200 -
+2025-10-06 02:00:38,818 - INFO - 127.0.0.1 - - [06/Oct/2025 02:00:38] "GET / HTTP/1.1" 200 -
+2025-10-06 02:00:45,531 - INFO - 127.0.0.1 - - [06/Oct/2025 02:00:45] "GET / HTTP/1.1" 200 -
+2025-10-06 02:01:00,761 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:00] "GET /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:01:01,693 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-06 02:01:13,026 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:13] "GET / HTTP/1.1" 200 -
+2025-10-06 02:01:19,608 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:19] "GET / HTTP/1.1" 200 -
+2025-10-06 02:01:22,426 - INFO - ============================================================
+2025-10-06 02:01:22,440 - INFO - ============================================================
+2025-10-06 02:01:22,443 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '284', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': 'e3106b93ed08a7a33dbc75ac80a1754bb37ee6351bc937c57ce6d5fb59e7debc', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:01:22,443 - INFO - Raw Data: {
+  "event": "dial.inbound",
+  "payload": {
+    "call_agent_id": "97512a3c-dd94-45fb-965c-e8d58e762fcb",
+    "dest_number_id": "794fb43b-e023-47d0-8654-e60e0c71704e",
+    "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+    "dial_session_id": "8ce6d7bd-5971-4747-9029-c2005d19e6dd",
+    "source_number": "+17176493625"
+  }
+}
+2025-10-06 02:01:22,443 - INFO - ============================================================
+2025-10-06 02:01:22,443 - INFO - Event Type: dial.inbound
+2025-10-06 02:01:22,443 - INFO - Payload: {
+  "call_agent_id": "97512a3c-dd94-45fb-965c-e8d58e762fcb",
+  "dest_number_id": "794fb43b-e023-47d0-8654-e60e0c71704e",
+  "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+  "dial_session_id": "8ce6d7bd-5971-4747-9029-c2005d19e6dd",
+  "source_number": "+17176493625"
+}
+2025-10-06 02:01:22,443 - INFO - Found dial_id: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:22,445 - INFO - Other event type 'dial.inbound' for dial: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:25,446 - INFO - Processing dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9 from webhook (event: dial.inbound)
+2025-10-06 02:01:25,446 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:25,990 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:25,997 - INFO - Transcript not ready for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9, attempt 1/5. Waiting 8s...
+2025-10-06 02:01:26,918 - INFO - ============================================================
+2025-10-06 02:01:26,925 - INFO - ============================================================
+2025-10-06 02:01:26,925 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '165', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '5cd93c975b0d95b790ed25db6bd2a8c9de02a965edca2a45902cb2f1cc68a9f8', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:01:26,925 - INFO - Raw Data: {
+  "event": "dial.updated",
+  "payload": {
+    "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+    "dial_session_id": "8ce6d7bd-5971-4747-9029-c2005d19e6dd",
+    "status": "in-progress"
+  }
+}
+2025-10-06 02:01:26,926 - INFO - ============================================================
+2025-10-06 02:01:26,926 - INFO - Event Type: dial.updated
+2025-10-06 02:01:26,926 - INFO - Payload: {
+  "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+  "dial_session_id": "8ce6d7bd-5971-4747-9029-c2005d19e6dd",
+  "status": "in-progress"
+}
+2025-10-06 02:01:26,926 - INFO - Found dial_id: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:26,926 - INFO - Other event type 'dial.updated' for dial: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:29,928 - INFO - Processing dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9 from webhook (event: dial.updated)
+2025-10-06 02:01:29,928 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:30,377 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:30,391 - INFO - Transcript not ready for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9, attempt 1/5. Waiting 8s...
+2025-10-06 02:01:34,003 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:34,497 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:34,497 - INFO - Transcript not ready for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9, attempt 2/5. Waiting 8s...
+2025-10-06 02:01:38,392 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:39,290 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:39,293 - INFO - Transcript not ready for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9, attempt 2/5. Waiting 8s...
+2025-10-06 02:01:42,505 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:43,038 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:43,042 - INFO - Transcript not ready for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9, attempt 3/5. Waiting 8s...
+2025-10-06 02:01:46,880 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:46] "GET / HTTP/1.1" 200 -
+2025-10-06 02:01:47,295 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:47,833 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:47,835 - INFO - Transcript not ready for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9, attempt 3/5. Waiting 8s...
+2025-10-06 02:01:51,044 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:51,997 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:52,003 - INFO - Transcript not ready for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9, attempt 4/5. Waiting 8s...
+2025-10-06 02:01:53,467 - INFO - ============================================================
+2025-10-06 02:01:53,476 - INFO - ============================================================
+2025-10-06 02:01:53,476 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '1304', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '28869c2ca5b81009c341d4495adba0865cd3d6e6cb9ea879878afba56b871d53', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:01:53,476 - INFO - Raw Data: {
+  "event": "dial.transcript",
+  "payload": {
+    "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+    "transcript": [
+      {
+        "detailType": null,
+        "endTimeMs": 3730,
+        "speaker": "HUMAN",
+        "startTimeMs": 3530,
+        "text": "Hello?"
+      },
+      {
+        "detailType": null,
+        "endTimeMs": 9900,
+        "speaker": "AI",
+        "startTimeMs": 4460,
+        "text": "Thanks for calling the Shiny Smiles appointment scheduling line. Could I please have your first and last name?"
+      },
+      {
+        "detailType": null,
+        "endTimeMs": 14780,
+        "speaker": "HUMAN",
+        "startTimeMs": 12120,
+        "text": "Yes. My name is Ruben Thomas."
+      },
+      {
+        "detailType": "node-transition",
+        "functionCallId": "chatcmpl-tool-43957bd493394c1a87ecf472160b1f49",
+        "nodeTransition": {
+          "toNodeId": "91038251-6bdb-4a4e-8ebc-eadca8ab8477",
+          "transitionData": {
+            "answer": "Ruben Thomas."
+          }
+        },
+        "speaker": "AI",
+        "text": ""
+      },
+      {
+        "detailType": null,
+        "endTimeMs": 18740,
+        "speaker": "AI",
+        "startTimeMs": 16980,
+        "text": "Are you a new or returning patient?"
+      },
+      {
+        "detailType": null,
+        "endTimeMs": 21100,
+        "speaker": "HUMAN",
+        "startTimeMs": 19970,
+        "text": "I'm a new patient."
+      },
+      {
+        "detailType": "node-transition",
+        "functionCallId": "chatcmpl-tool-a1567d7295544ce1a1f276f9a3119950",
+        "nodeTransition": {
+          "toNodeId": "40dc0a67-491e-4d0e-93cf-1970afaba500",
+          "transitionData": {
+            "answer": "New"
+          }
+        },
+        "speaker": "AI",
+        "text": ""
+      },
+      {
+        "detailType": null,
+        "endTimeMs": 24060,
+        "speaker": "AI",
+        "startTimeMs": 22140,
+        "text": "Got it. Will you be using insurance?"
+      }
+    ]
+  }
+}
+2025-10-06 02:01:53,490 - INFO - ============================================================
+2025-10-06 02:01:53,492 - INFO - Event Type: dial.transcript
+2025-10-06 02:01:53,492 - INFO - Payload: {
+  "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+  "transcript": [
+    {
+      "detailType": null,
+      "endTimeMs": 3730,
+      "speaker": "HUMAN",
+      "startTimeMs": 3530,
+      "text": "Hello?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 9900,
+      "speaker": "AI",
+      "startTimeMs": 4460,
+      "text": "Thanks for calling the Shiny Smiles appointment scheduling line. Could I please have your first and last name?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 14780,
+      "speaker": "HUMAN",
+      "startTimeMs": 12120,
+      "text": "Yes. My name is Ruben Thomas."
+    },
+    {
+      "detailType": "node-transition",
+      "functionCallId": "chatcmpl-tool-43957bd493394c1a87ecf472160b1f49",
+      "nodeTransition": {
+        "toNodeId": "91038251-6bdb-4a4e-8ebc-eadca8ab8477",
+        "transitionData": {
+          "answer": "Ruben Thomas."
+        }
+      },
+      "speaker": "AI",
+      "text": ""
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 18740,
+      "speaker": "AI",
+      "startTimeMs": 16980,
+      "text": "Are you a new or returning patient?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 21100,
+      "speaker": "HUMAN",
+      "startTimeMs": 19970,
+      "text": "I'm a new patient."
+    },
+    {
+      "detailType": "node-transition",
+      "functionCallId": "chatcmpl-tool-a1567d7295544ce1a1f276f9a3119950",
+      "nodeTransition": {
+        "toNodeId": "40dc0a67-491e-4d0e-93cf-1970afaba500",
+        "transitionData": {
+          "answer": "New"
+        }
+      },
+      "speaker": "AI",
+      "text": ""
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 24060,
+      "speaker": "AI",
+      "startTimeMs": 22140,
+      "text": "Got it. Will you be using insurance?"
+    }
+  ]
+}
+2025-10-06 02:01:53,492 - INFO - Found dial_id: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:53,492 - INFO - Transcript ready event for dial: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:53,492 - INFO - Processing dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9 from webhook (event: dial.transcript)
+2025-10-06 02:01:53,497 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:53,513 - INFO - ============================================================
+2025-10-06 02:01:53,521 - INFO - ============================================================
+2025-10-06 02:01:53,521 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '281', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '4bfba7000971993c3f994d28289b3de66ff113834a3d7856ee9abc54793f8902', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:01:53,521 - INFO - Raw Data: {
+  "event": "dial.updated",
+  "payload": {
+    "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+    "dial_session_id": "8ce6d7bd-5971-4747-9029-c2005d19e6dd",
+    "duration_seconds": 27,
+    "ended_at": "2025-10-06T06:01:53Z",
+    "started_at": "2025-10-06T06:01:26Z",
+    "status": "completed",
+    "system_result_type": null
+  }
+}
+2025-10-06 02:01:53,521 - INFO - ============================================================
+2025-10-06 02:01:53,521 - INFO - Event Type: dial.updated
+2025-10-06 02:01:53,521 - INFO - Payload: {
+  "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+  "dial_session_id": "8ce6d7bd-5971-4747-9029-c2005d19e6dd",
+  "duration_seconds": 27,
+  "ended_at": "2025-10-06T06:01:53Z",
+  "started_at": "2025-10-06T06:01:26Z",
+  "status": "completed",
+  "system_result_type": null
+}
+2025-10-06 02:01:53,521 - INFO - Found dial_id: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:53,521 - INFO - Other event type 'dial.updated' for dial: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:53,605 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:53] "GET / HTTP/1.1" 200 -
+2025-10-06 02:01:53,646 - INFO - ============================================================
+2025-10-06 02:01:53,653 - INFO - ============================================================
+2025-10-06 02:01:53,653 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '241', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '2c0faeb971f5a9c88b02fc996001e4c711266e144582d4fb97dc25df896090de', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:01:53,653 - INFO - Raw Data: {
+  "event": "dial.recording_created",
+  "payload": {
+    "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+    "recording_id": "595865df-8224-49f6-b250-1c76379f9c63",
+    "recording_url": "https://api.vogent.ai/api/recordings/789c6d3e-9f7e-492a-8569-40965efc52b2"
+  }
+}
+2025-10-06 02:01:53,653 - INFO - ============================================================
+2025-10-06 02:01:53,656 - INFO - Event Type: dial.recording_created
+2025-10-06 02:01:53,656 - INFO - Payload: {
+  "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9",
+  "recording_id": "595865df-8224-49f6-b250-1c76379f9c63",
+  "recording_url": "https://api.vogent.ai/api/recordings/789c6d3e-9f7e-492a-8569-40965efc52b2"
+}
+2025-10-06 02:01:53,656 - INFO - Found dial_id: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:53,657 - INFO - Other event type 'dial.recording_created' for dial: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:53,956 - INFO - ============================================================
+2025-10-06 02:01:53,968 - INFO - ============================================================
+2025-10-06 02:01:53,968 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '223', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': 'ff88ffa80c6db4f77032c82194febc2f76842ea0e9032770af9002ca9532ddcd', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:01:53,970 - INFO - Raw Data: {
+  "event": "dial.extractor",
+  "payload": {
+    "ai_result": {
+      "3766ef49-ca1f-4170-b6f2-e6f76d1bc7e8": {
+        "answer": "Ruben Thomas."
+      },
+      "91038251-6bdb-4a4e-8ebc-eadca8ab8477": {
+        "answer": "New"
+      }
+    },
+    "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9"
+  }
+}
+2025-10-06 02:01:53,970 - INFO - ============================================================
+2025-10-06 02:01:53,970 - INFO - Event Type: dial.extractor
+2025-10-06 02:01:53,970 - INFO - Payload: {
+  "ai_result": {
+    "3766ef49-ca1f-4170-b6f2-e6f76d1bc7e8": {
+      "answer": "Ruben Thomas."
+    },
+    "91038251-6bdb-4a4e-8ebc-eadca8ab8477": {
+      "answer": "New"
+    }
+  },
+  "dial_id": "17c35eae-aa1b-471f-ab5f-4f3de627b6b9"
+}
+2025-10-06 02:01:53,970 - INFO - Found dial_id: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:53,970 - INFO - Other event type 'dial.extractor' for dial: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:54,612 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:54,616 - INFO - Transcript ready for dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:54,618 - INFO - Transcript saved to: transcripts\transcript_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020154.txt
+2025-10-06 02:01:54,622 - INFO - Raw dial data saved to: transcripts\raw_dial_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020154.json
+2025-10-06 02:01:54,639 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:54] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:01:55,838 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:56,526 - INFO - Processing dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9 from webhook (event: dial.updated)
+2025-10-06 02:01:56,527 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:56,659 - INFO - Processing dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9 from webhook (event: dial.recording_created)
+2025-10-06 02:01:56,659 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:56,974 - INFO - Processing dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9 from webhook (event: dial.extractor)
+2025-10-06 02:01:56,974 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:57,132 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:57,140 - INFO - Transcript ready for dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:57,149 - INFO - Transcript saved to: transcripts\transcript_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020157.txt
+2025-10-06 02:01:57,163 - INFO - Raw dial data saved to: transcripts\raw_dial_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020157.json
+2025-10-06 02:01:57,204 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:57] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:01:57,764 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:57,770 - INFO - Transcript ready for dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:57,772 - INFO - Transcript saved to: transcripts\transcript_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020157.txt
+2025-10-06 02:01:57,783 - INFO - Raw dial data saved to: transcripts\raw_dial_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020157.json
+2025-10-06 02:01:57,796 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:57] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:01:57,809 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:57,812 - INFO - Transcript ready for dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:57,815 - INFO - Transcript saved to: transcripts\transcript_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020157.txt
+2025-10-06 02:01:57,822 - INFO - Raw dial data saved to: transcripts\raw_dial_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020157.json
+2025-10-06 02:01:57,837 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:57] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:01:58,138 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:58,140 - INFO - Transcript ready for dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:01:58,142 - INFO - Transcript saved to: transcripts\transcript_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020158.txt
+2025-10-06 02:01:58,185 - INFO - Raw dial data saved to: transcripts\raw_dial_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020158.json
+2025-10-06 02:01:58,198 - INFO - 127.0.0.1 - - [06/Oct/2025 02:01:58] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:02:00,005 - INFO - Fetching dial info for ID: 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:02:01,027 - INFO - Successfully retrieved dial info for 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:02:01,027 - INFO - Transcript ready for dial 17c35eae-aa1b-471f-ab5f-4f3de627b6b9
+2025-10-06 02:02:01,034 - INFO - Transcript saved to: transcripts\transcript_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020201.txt
+2025-10-06 02:02:01,037 - INFO - Raw dial data saved to: transcripts\raw_dial_17c35eae-aa1b-471f-ab5f-4f3de627b6b9_20251006_020201.json
+2025-10-06 02:02:01,047 - INFO - 127.0.0.1 - - [06/Oct/2025 02:02:01] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:02:19,371 - INFO - 127.0.0.1 - - [06/Oct/2025 02:02:19] "GET / HTTP/1.1" 200 -
+2025-10-06 02:02:27,025 - INFO - 127.0.0.1 - - [06/Oct/2025 02:02:27] "GET / HTTP/1.1" 200 -
+2025-10-06 02:02:52,737 - INFO - 127.0.0.1 - - [06/Oct/2025 02:02:52] "GET / HTTP/1.1" 200 -
+2025-10-06 02:03:00,616 - INFO - 127.0.0.1 - - [06/Oct/2025 02:03:00] "GET / HTTP/1.1" 200 -
+2025-10-06 02:03:26,788 - INFO - 127.0.0.1 - - [06/Oct/2025 02:03:26] "GET / HTTP/1.1" 200 -
+2025-10-06 02:03:27,569 - INFO - 127.0.0.1 - - [06/Oct/2025 02:03:27] "GET /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:03:36,070 - INFO - 127.0.0.1 - - [06/Oct/2025 02:03:36] "GET / HTTP/1.1" 200 -
+2025-10-06 02:03:59,363 - INFO - 127.0.0.1 - - [06/Oct/2025 02:03:59] "GET / HTTP/1.1" 200 -
+2025-10-06 02:04:08,727 - INFO - 127.0.0.1 - - [06/Oct/2025 02:04:08] "GET / HTTP/1.1" 200 -
+2025-10-06 02:04:33,431 - INFO - 127.0.0.1 - - [06/Oct/2025 02:04:33] "GET / HTTP/1.1" 200 -
+2025-10-06 02:04:34,567 - INFO - Shutting down...
+2025-10-06 02:04:39,573 - INFO - Auto-discovery service stopped
+2025-10-06 02:04:42,036 - INFO - 127.0.0.1 - - [06/Oct/2025 02:04:42] "GET / HTTP/1.1" 200 -
+2025-10-06 02:04:48,460 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 02:04:48,460 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 02:04:50,383 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 02:04:50,385 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 02:04:50,387 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-06 02:04:50,394 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-06 02:04:50,397 - INFO - Auto-discovery service started automatically
+2025-10-06 02:04:50,422 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 02:04:50,422 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 02:04:52,138 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 02:04:52,138 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 02:04:52,143 - INFO - Recent dials API unavailable - switching to webhook-only mode
+2025-10-06 02:05:03,008 - INFO - ============================================================
+2025-10-06 02:05:03,020 - INFO - ============================================================
+2025-10-06 02:05:03,025 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '284', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': 'ac3afd91067452aef6d997d5b3ad462da87f6a0899434150c3784b9e6d598076', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:05:03,026 - INFO - Raw Data: {
+  "event": "dial.inbound",
+  "payload": {
+    "call_agent_id": "97512a3c-dd94-45fb-965c-e8d58e762fcb",
+    "dest_number_id": "794fb43b-e023-47d0-8654-e60e0c71704e",
+    "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+    "dial_session_id": "3f3dac0b-bb34-4db1-8cad-c34c5c7b694a",
+    "source_number": "+17176493625"
+  }
+}
+2025-10-06 02:05:03,026 - INFO - ============================================================
+2025-10-06 02:05:03,026 - INFO - Event Type: dial.inbound
+2025-10-06 02:05:03,026 - INFO - Payload: {
+  "call_agent_id": "97512a3c-dd94-45fb-965c-e8d58e762fcb",
+  "dest_number_id": "794fb43b-e023-47d0-8654-e60e0c71704e",
+  "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+  "dial_session_id": "3f3dac0b-bb34-4db1-8cad-c34c5c7b694a",
+  "source_number": "+17176493625"
+}
+2025-10-06 02:05:03,030 - INFO - Found dial_id: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:03,030 - INFO - Other event type 'dial.inbound' for dial: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:06,032 - INFO - Processing dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339 from webhook (event: dial.inbound)
+2025-10-06 02:05:06,032 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:06,527 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:06,527 - INFO - Transcript not ready for 4f2e9353-6c1d-4423-9c2c-71841e7f6339, attempt 1/5. Waiting 8s...
+2025-10-06 02:05:07,372 - INFO - ============================================================
+2025-10-06 02:05:07,383 - INFO - ============================================================
+2025-10-06 02:05:07,383 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '165', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': 'e3bd98abc594a37009810982839f2b826188b72dfb13a8583bd8d7ee8926a830', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:05:07,385 - INFO - Raw Data: {
+  "event": "dial.updated",
+  "payload": {
+    "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+    "dial_session_id": "3f3dac0b-bb34-4db1-8cad-c34c5c7b694a",
+    "status": "in-progress"
+  }
+}
+2025-10-06 02:05:07,385 - INFO - ============================================================
+2025-10-06 02:05:07,386 - INFO - Event Type: dial.updated
+2025-10-06 02:05:07,386 - INFO - Payload: {
+  "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+  "dial_session_id": "3f3dac0b-bb34-4db1-8cad-c34c5c7b694a",
+  "status": "in-progress"
+}
+2025-10-06 02:05:07,386 - INFO - Found dial_id: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:07,388 - INFO - Other event type 'dial.updated' for dial: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:07,681 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:07] "GET / HTTP/1.1" 200 -
+2025-10-06 02:05:10,389 - INFO - Processing dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339 from webhook (event: dial.updated)
+2025-10-06 02:05:10,389 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:10,985 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:10,988 - INFO - Transcript not ready for 4f2e9353-6c1d-4423-9c2c-71841e7f6339, attempt 1/5. Waiting 8s...
+2025-10-06 02:05:14,536 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:15,015 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:15,018 - INFO - Transcript not ready for 4f2e9353-6c1d-4423-9c2c-71841e7f6339, attempt 2/5. Waiting 8s...
+2025-10-06 02:05:15,791 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:15] "GET / HTTP/1.1" 200 -
+2025-10-06 02:05:18,990 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:19,579 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:19,585 - INFO - Transcript not ready for 4f2e9353-6c1d-4423-9c2c-71841e7f6339, attempt 2/5. Waiting 8s...
+2025-10-06 02:05:23,020 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:23,483 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:23,483 - INFO - Transcript not ready for 4f2e9353-6c1d-4423-9c2c-71841e7f6339, attempt 3/5. Waiting 8s...
+2025-10-06 02:05:25,707 - INFO - ============================================================
+2025-10-06 02:05:25,714 - INFO - ============================================================
+2025-10-06 02:05:25,714 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '388', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': 'b73e6692fe1f0706b7b951ae708a1132da5a9a544395ca68fbcb7d18d54352a4', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:05:25,715 - INFO - Raw Data: {
+  "event": "dial.transcript",
+  "payload": {
+    "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+    "transcript": [
+      {
+        "detailType": null,
+        "endTimeMs": 10730,
+        "speaker": "HUMAN",
+        "startTimeMs": 10230,
+        "text": "Hello?"
+      },
+      {
+        "detailType": null,
+        "endTimeMs": 16620,
+        "speaker": "AI",
+        "startTimeMs": 11660,
+        "text": "Thanks for calling the Shiny Smiles appointment scheduling line. Could I please have your first and last name?"
+      }
+    ]
+  }
+}
+2025-10-06 02:05:25,715 - INFO - ============================================================
+2025-10-06 02:05:25,715 - INFO - Event Type: dial.transcript
+2025-10-06 02:05:25,717 - INFO - Payload: {
+  "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+  "transcript": [
+    {
+      "detailType": null,
+      "endTimeMs": 10730,
+      "speaker": "HUMAN",
+      "startTimeMs": 10230,
+      "text": "Hello?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 16620,
+      "speaker": "AI",
+      "startTimeMs": 11660,
+      "text": "Thanks for calling the Shiny Smiles appointment scheduling line. Could I please have your first and last name?"
+    }
+  ]
+}
+2025-10-06 02:05:25,717 - INFO - Found dial_id: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:25,717 - INFO - Transcript ready event for dial: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:25,717 - INFO - Processing dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339 from webhook (event: dial.transcript)
+2025-10-06 02:05:25,717 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:25,814 - INFO - ============================================================
+2025-10-06 02:05:25,819 - INFO - ============================================================
+2025-10-06 02:05:25,819 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '281', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '7963ccbf37c5f63173bc91244afe0e48fb4eeeb642bdc71cb6fac3cab99388bd', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:05:25,821 - INFO - Raw Data: {
+  "event": "dial.updated",
+  "payload": {
+    "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+    "dial_session_id": "3f3dac0b-bb34-4db1-8cad-c34c5c7b694a",
+    "duration_seconds": 19,
+    "ended_at": "2025-10-06T06:05:25Z",
+    "started_at": "2025-10-06T06:05:07Z",
+    "status": "completed",
+    "system_result_type": null
+  }
+}
+2025-10-06 02:05:25,822 - INFO - ============================================================
+2025-10-06 02:05:25,822 - INFO - Event Type: dial.updated
+2025-10-06 02:05:25,822 - INFO - Payload: {
+  "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+  "dial_session_id": "3f3dac0b-bb34-4db1-8cad-c34c5c7b694a",
+  "duration_seconds": 19,
+  "ended_at": "2025-10-06T06:05:25Z",
+  "started_at": "2025-10-06T06:05:07Z",
+  "status": "completed",
+  "system_result_type": null
+}
+2025-10-06 02:05:25,822 - INFO - Found dial_id: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:25,822 - INFO - Other event type 'dial.updated' for dial: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:26,022 - INFO - ============================================================
+2025-10-06 02:05:26,026 - INFO - ============================================================
+2025-10-06 02:05:26,026 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '241', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '8c14e35040935f2ed1a6c176e33ecd468e4c63010515a411d713799fb524686f', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:05:26,027 - INFO - Raw Data: {
+  "event": "dial.recording_created",
+  "payload": {
+    "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+    "recording_id": "f97f08b1-69ef-47fd-987b-4ce4a6d5c54a",
+    "recording_url": "https://api.vogent.ai/api/recordings/d12e4802-5bc7-468f-a3c3-e07fa6ff5b45"
+  }
+}
+2025-10-06 02:05:26,027 - INFO - ============================================================
+2025-10-06 02:05:26,027 - INFO - Event Type: dial.recording_created
+2025-10-06 02:05:26,027 - INFO - Payload: {
+  "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339",
+  "recording_id": "f97f08b1-69ef-47fd-987b-4ce4a6d5c54a",
+  "recording_url": "https://api.vogent.ai/api/recordings/d12e4802-5bc7-468f-a3c3-e07fa6ff5b45"
+}
+2025-10-06 02:05:26,027 - INFO - Found dial_id: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:26,029 - INFO - Other event type 'dial.recording_created' for dial: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:26,138 - INFO - ============================================================
+2025-10-06 02:05:26,145 - INFO - ============================================================
+2025-10-06 02:05:26,145 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '102', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '55bbb12cdcb24eeb3804519a1efac7021cf17b6bc18d033208267ab3a457982d', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:05:26,145 - INFO - Raw Data: {
+  "event": "dial.extractor",
+  "payload": {
+    "ai_result": {},
+    "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339"
+  }
+}
+2025-10-06 02:05:26,145 - INFO - ============================================================
+2025-10-06 02:05:26,145 - INFO - Event Type: dial.extractor
+2025-10-06 02:05:26,145 - INFO - Payload: {
+  "ai_result": {},
+  "dial_id": "4f2e9353-6c1d-4423-9c2c-71841e7f6339"
+}
+2025-10-06 02:05:26,147 - INFO - Found dial_id: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:26,147 - INFO - Other event type 'dial.extractor' for dial: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:26,211 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:26,222 - INFO - Transcript ready for dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:26,225 - INFO - Transcript saved to: transcripts\transcript_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020526.txt
+2025-10-06 02:05:26,230 - INFO - Raw dial data saved to: transcripts\raw_dial_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020526.json
+2025-10-06 02:05:26,238 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:26] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:05:27,587 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:28,080 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:28,087 - INFO - Transcript ready for dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:28,091 - INFO - Transcript saved to: transcripts\transcript_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020528.txt
+2025-10-06 02:05:28,099 - INFO - Raw dial data saved to: transcripts\raw_dial_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020528.json
+2025-10-06 02:05:28,117 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:28] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:05:28,824 - INFO - Processing dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339 from webhook (event: dial.updated)
+2025-10-06 02:05:28,824 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:29,029 - INFO - Processing dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339 from webhook (event: dial.recording_created)
+2025-10-06 02:05:29,029 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:29,148 - INFO - Processing dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339 from webhook (event: dial.extractor)
+2025-10-06 02:05:29,148 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:29,397 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:29,397 - INFO - Transcript ready for dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:29,397 - INFO - Transcript saved to: transcripts\transcript_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020529.txt
+2025-10-06 02:05:29,404 - INFO - Raw dial data saved to: transcripts\raw_dial_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020529.json
+2025-10-06 02:05:29,407 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:29] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:05:29,653 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:29,655 - INFO - Transcript ready for dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:29,655 - INFO - Transcript saved to: transcripts\transcript_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020529.txt
+2025-10-06 02:05:29,659 - INFO - Raw dial data saved to: transcripts\raw_dial_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020529.json
+2025-10-06 02:05:29,662 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:29] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:05:29,746 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:29,751 - INFO - Transcript ready for dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:29,753 - INFO - Transcript saved to: transcripts\transcript_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020529.txt
+2025-10-06 02:05:29,758 - INFO - Raw dial data saved to: transcripts\raw_dial_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020529.json
+2025-10-06 02:05:29,773 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:29] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:05:31,496 - INFO - Fetching dial info for ID: 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:31,945 - INFO - Successfully retrieved dial info for 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:31,950 - INFO - Transcript ready for dial 4f2e9353-6c1d-4423-9c2c-71841e7f6339
+2025-10-06 02:05:31,951 - INFO - Transcript saved to: transcripts\transcript_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020531.txt
+2025-10-06 02:05:31,979 - INFO - Raw dial data saved to: transcripts\raw_dial_4f2e9353-6c1d-4423-9c2c-71841e7f6339_20251006_020531.json
+2025-10-06 02:05:31,988 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:31] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:05:40,763 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:40] "GET / HTTP/1.1" 200 -
+2025-10-06 02:05:49,393 - INFO - 127.0.0.1 - - [06/Oct/2025 02:05:49] "GET / HTTP/1.1" 200 -
+2025-10-06 02:06:15,284 - INFO - 127.0.0.1 - - [06/Oct/2025 02:06:15] "GET / HTTP/1.1" 200 -
+2025-10-06 02:06:22,531 - INFO - 127.0.0.1 - - [06/Oct/2025 02:06:22] "GET / HTTP/1.1" 200 -
+2025-10-06 02:06:48,041 - INFO - Shutting down...
+2025-10-06 02:06:49,381 - INFO - 127.0.0.1 - - [06/Oct/2025 02:06:49] "GET / HTTP/1.1" 200 -
+2025-10-06 02:06:53,054 - INFO - Auto-discovery service stopped
+2025-10-06 02:06:55,567 - INFO - 127.0.0.1 - - [06/Oct/2025 02:06:55] "GET / HTTP/1.1" 200 -
+2025-10-06 02:08:02,389 - INFO - Starting Vogent Transcript Automation Server
+2025-10-06 02:08:02,389 - INFO - Transcripts will be saved to: transcripts
+2025-10-06 02:08:04,432 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 02:08:04,434 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 02:08:04,436 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-06 02:08:04,436 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-06 02:08:04,441 - INFO - Auto-discovery service started automatically
+2025-10-06 02:08:04,462 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.6.29.24:5000
+2025-10-06 02:08:04,462 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-06 02:08:06,490 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-06 02:08:06,497 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-06 02:08:06,499 - INFO - Recent dials API unavailable - switching to webhook-only mode
+2025-10-06 02:08:08,060 - INFO - ============================================================
+2025-10-06 02:08:08,110 - INFO - ============================================================
+2025-10-06 02:08:08,110 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '284', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '206ef5116040f87214209903c596357b1714620d01c2c3d8073e8d67d29a6e3e', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:08:08,110 - INFO - Raw Data: {
+  "event": "dial.inbound",
+  "payload": {
+    "call_agent_id": "97512a3c-dd94-45fb-965c-e8d58e762fcb",
+    "dest_number_id": "794fb43b-e023-47d0-8654-e60e0c71704e",
+    "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+    "dial_session_id": "146cb9ac-70ba-4b12-917f-f23eceaa0eba",
+    "source_number": "+17176493625"
+  }
+}
+2025-10-06 02:08:08,110 - INFO - ============================================================
+2025-10-06 02:08:08,116 - INFO - Event Type: dial.inbound
+2025-10-06 02:08:08,117 - INFO - Payload: {
+  "call_agent_id": "97512a3c-dd94-45fb-965c-e8d58e762fcb",
+  "dest_number_id": "794fb43b-e023-47d0-8654-e60e0c71704e",
+  "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+  "dial_session_id": "146cb9ac-70ba-4b12-917f-f23eceaa0eba",
+  "source_number": "+17176493625"
+}
+2025-10-06 02:08:08,117 - INFO - Found dial_id: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from event: dial.inbound
+2025-10-06 02:08:08,119 - INFO - Other event type 'dial.inbound' for dial: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:11,121 - INFO - Processing dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from webhook (event: dial.inbound)
+2025-10-06 02:08:11,122 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:11,838 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:11,849 - INFO - Transcript not ready for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4, attempt 1/5. Waiting 8s...
+2025-10-06 02:08:12,332 - INFO - ============================================================
+2025-10-06 02:08:12,356 - INFO - ============================================================
+2025-10-06 02:08:12,356 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '165', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': 'fda7005771f86b62036f05cf66b78e2c649fef69d7d0e5e37c5550d3f7d68d1d', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:08:12,356 - INFO - Raw Data: {
+  "event": "dial.updated",
+  "payload": {
+    "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+    "dial_session_id": "146cb9ac-70ba-4b12-917f-f23eceaa0eba",
+    "status": "in-progress"
+  }
+}
+2025-10-06 02:08:12,362 - INFO - ============================================================
+2025-10-06 02:08:12,362 - INFO - Event Type: dial.updated
+2025-10-06 02:08:12,364 - INFO - Payload: {
+  "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+  "dial_session_id": "146cb9ac-70ba-4b12-917f-f23eceaa0eba",
+  "status": "in-progress"
+}
+2025-10-06 02:08:12,364 - INFO - Found dial_id: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from event: dial.updated
+2025-10-06 02:08:12,367 - INFO - Other event type 'dial.updated' for dial: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:15,370 - INFO - Processing dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from webhook (event: dial.updated)
+2025-10-06 02:08:15,370 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:15,919 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:15,926 - INFO - Transcript not ready for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4, attempt 1/5. Waiting 8s...
+2025-10-06 02:08:19,851 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:20,418 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:20,422 - INFO - Transcript not ready for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4, attempt 2/5. Waiting 8s...
+2025-10-06 02:08:23,929 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:24,454 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:24,459 - INFO - Transcript not ready for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4, attempt 2/5. Waiting 8s...
+2025-10-06 02:08:28,425 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:28,960 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:28,964 - INFO - Transcript not ready for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4, attempt 3/5. Waiting 8s...
+2025-10-06 02:08:30,170 - INFO - ============================================================
+2025-10-06 02:08:30,196 - INFO - ============================================================
+2025-10-06 02:08:30,198 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '195', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '496ff1fdf2ab65b92c5dbdadeaedda60e6814fc23ca0925d14f0daf438ca37ec', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:08:30,200 - INFO - Raw Data: {
+  "event": "dial.transcript",
+  "payload": {
+    "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+    "transcript": [
+      {
+        "detailType": null,
+        "endTimeMs": 11420,
+        "speaker": "HUMAN",
+        "startTimeMs": 10920,
+        "text": "Hello?"
+      }
+    ]
+  }
+}
+2025-10-06 02:08:30,201 - INFO - ============================================================
+2025-10-06 02:08:30,202 - INFO - Event Type: dial.transcript
+2025-10-06 02:08:30,203 - INFO - Payload: {
+  "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+  "transcript": [
+    {
+      "detailType": null,
+      "endTimeMs": 11420,
+      "speaker": "HUMAN",
+      "startTimeMs": 10920,
+      "text": "Hello?"
+    }
+  ]
+}
+2025-10-06 02:08:30,204 - INFO - Found dial_id: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from event: dial.transcript
+2025-10-06 02:08:30,208 - INFO - Transcript ready event for dial: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:30,209 - INFO - Processing dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from webhook (event: dial.transcript)
+2025-10-06 02:08:30,209 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:30,234 - INFO - ============================================================
+2025-10-06 02:08:30,266 - INFO - ============================================================
+2025-10-06 02:08:30,268 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '281', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '2cdb2f9d9e6534e2edf87b4a87e80e6dcf47b97a1d6b4df0681361b4269703fe', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:08:30,269 - INFO - Raw Data: {
+  "event": "dial.updated",
+  "payload": {
+    "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+    "dial_session_id": "146cb9ac-70ba-4b12-917f-f23eceaa0eba",
+    "duration_seconds": 18,
+    "ended_at": "2025-10-06T06:08:30Z",
+    "started_at": "2025-10-06T06:08:12Z",
+    "status": "completed",
+    "system_result_type": null
+  }
+}
+2025-10-06 02:08:30,269 - INFO - ============================================================
+2025-10-06 02:08:30,269 - INFO - Event Type: dial.updated
+2025-10-06 02:08:30,269 - INFO - Payload: {
+  "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+  "dial_session_id": "146cb9ac-70ba-4b12-917f-f23eceaa0eba",
+  "duration_seconds": 18,
+  "ended_at": "2025-10-06T06:08:30Z",
+  "started_at": "2025-10-06T06:08:12Z",
+  "status": "completed",
+  "system_result_type": null
+}
+2025-10-06 02:08:30,272 - INFO - Found dial_id: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from event: dial.updated
+2025-10-06 02:08:30,273 - INFO - Other event type 'dial.updated' for dial: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:30,453 - INFO - ============================================================
+2025-10-06 02:08:30,461 - INFO - ============================================================
+2025-10-06 02:08:30,461 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '241', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': '727c5c0822dc9696e4b1979981689f543caa4db6e2c06dc05c0d3c859e066af8', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:08:30,461 - INFO - Raw Data: {
+  "event": "dial.recording_created",
+  "payload": {
+    "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+    "recording_id": "1d876257-03a2-4ea8-bf5e-2b1192adc361",
+    "recording_url": "https://api.vogent.ai/api/recordings/c7f44fd1-f4ec-4055-bed7-08a07eac3565"
+  }
+}
+2025-10-06 02:08:30,463 - INFO - ============================================================
+2025-10-06 02:08:30,463 - INFO - Event Type: dial.recording_created
+2025-10-06 02:08:30,463 - INFO - Payload: {
+  "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4",
+  "recording_id": "1d876257-03a2-4ea8-bf5e-2b1192adc361",
+  "recording_url": "https://api.vogent.ai/api/recordings/c7f44fd1-f4ec-4055-bed7-08a07eac3565"
+}
+2025-10-06 02:08:30,464 - INFO - Found dial_id: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from event: dial.recording_created
+2025-10-06 02:08:30,464 - INFO - Other event type 'dial.recording_created' for dial: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:30,658 - INFO - ============================================================
+2025-10-06 02:08:30,663 - INFO - ============================================================
+2025-10-06 02:08:30,665 - INFO - Headers: {'Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'User-Agent': 'Go-http-client/2.0', 'Content-Length': '102', 'Accept-Encoding': 'gzip', 'Content-Type': 'application/json', 'X-Elto-Signature': 'd9157880f23f3bab2503449bca235e69034bb1e2c46ed2b8b103f031c8a732ec', 'X-Forwarded-For': '54.242.213.148', 'X-Forwarded-Host': 'love-unblinking-tachygraphically.ngrok-free.dev', 'X-Forwarded-Proto': 'https'}
+2025-10-06 02:08:30,665 - INFO - Raw Data: {
+  "event": "dial.extractor",
+  "payload": {
+    "ai_result": {},
+    "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4"
+  }
+}
+2025-10-06 02:08:30,665 - INFO - ============================================================
+2025-10-06 02:08:30,665 - INFO - Event Type: dial.extractor
+2025-10-06 02:08:30,665 - INFO - Payload: {
+  "ai_result": {},
+  "dial_id": "09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4"
+}
+2025-10-06 02:08:30,667 - INFO - Found dial_id: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from event: dial.extractor
+2025-10-06 02:08:30,667 - INFO - Other event type 'dial.extractor' for dial: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:30,797 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:30,809 - INFO - Transcript ready for dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:30,818 - INFO - Transcript saved to: transcripts\transcript_09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4_20251006_020830.txt
+2025-10-06 02:08:30,827 - INFO - Raw dial data saved to: transcripts\raw_dial_09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4_20251006_020830.json
+2025-10-06 02:08:30,848 - INFO - 127.0.0.1 - - [06/Oct/2025 02:08:30] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:08:32,462 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:33,097 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:33,102 - INFO - Transcript ready for dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:33,102 - INFO - Dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 already processed, skipping duplicate
+2025-10-06 02:08:33,106 - INFO - Raw dial data saved to: transcripts\raw_dial_09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4_20251006_020833.json
+2025-10-06 02:08:33,130 - INFO - 127.0.0.1 - - [06/Oct/2025 02:08:33] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:08:33,274 - INFO - Processing dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from webhook (event: dial.updated)
+2025-10-06 02:08:33,274 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:33,465 - INFO - Processing dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from webhook (event: dial.recording_created)
+2025-10-06 02:08:33,465 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:33,668 - INFO - Processing dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 from webhook (event: dial.extractor)
+2025-10-06 02:08:33,668 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:33,861 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:33,862 - INFO - Transcript ready for dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:33,862 - INFO - Dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 already processed, skipping duplicate
+2025-10-06 02:08:33,864 - INFO - Raw dial data saved to: transcripts\raw_dial_09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4_20251006_020833.json
+2025-10-06 02:08:33,871 - INFO - 127.0.0.1 - - [06/Oct/2025 02:08:33] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:08:34,050 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:34,052 - INFO - Transcript ready for dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:34,052 - INFO - Dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 already processed, skipping duplicate
+2025-10-06 02:08:34,053 - INFO - Raw dial data saved to: transcripts\raw_dial_09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4_20251006_020834.json
+2025-10-06 02:08:34,061 - INFO - 127.0.0.1 - - [06/Oct/2025 02:08:34] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:08:34,234 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:34,239 - INFO - Transcript ready for dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:34,241 - INFO - Dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 already processed, skipping duplicate
+2025-10-06 02:08:34,246 - INFO - Raw dial data saved to: transcripts\raw_dial_09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4_20251006_020834.json
+2025-10-06 02:08:34,264 - INFO - 127.0.0.1 - - [06/Oct/2025 02:08:34] "POST /webhook/vogent HTTP/1.1" 200 -
+2025-10-06 02:08:36,970 - INFO - Fetching dial info for ID: 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:37,522 - INFO - Successfully retrieved dial info for 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:37,528 - INFO - Transcript ready for dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4
+2025-10-06 02:08:37,529 - INFO - Dial 09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4 already processed, skipping duplicate
+2025-10-06 02:08:37,533 - INFO - Raw dial data saved to: transcripts\raw_dial_09d832b3-a3a0-4935-bf2f-6f0b4d3c7ef4_20251006_020837.json
+2025-10-06 02:08:37,562 - INFO - 127.0.0.1 - - [06/Oct/2025 02:08:37] "POST /webhook/vogent HTTP/1.1" 200 -
