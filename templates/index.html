@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+
+{% block title %}Transcript Viewer{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <!-- Header -->
+    <div class="text-center mb-8">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">📞 Call Transcript Viewer</h1>
+        <p class="text-xl text-gray-600 mb-6">View and search your Vogent call transcripts</p>
+        
+        <!-- Search Bar -->
+        <div class="max-w-md mx-auto">
+            <form method="GET" class="relative">
+                <input type="text" 
+                       name="search" 
+                       value="{{ search_query }}"
+                       placeholder="Search transcripts..." 
+                       class="w-full px-4 py-3 pl-10 pr-12 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+                <button type="submit" 
+                        class="absolute inset-y-0 right-0 pr-3 flex items-center">
+                    <svg class="h-5 w-5 text-blue-500 hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5-5 5M6 12h12"></path>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Results Summary -->
+    {% if search_query %}
+    <div class="mb-6 text-center">
+        <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            Found {{ transcripts|length }} result(s) for "{{ search_query }}"
+            <a href="/" class="ml-2 text-blue-600 hover:text-blue-800">Clear</a>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Transcripts Grid -->
+    {% if transcripts %}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for transcript in transcripts %}
+        <div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+            <!-- Card Header -->
+            <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                        <h3 class="font-semibold truncate">Call Transcript</h3>
+                    </div>
+                    {% if transcript.status %}
+                    <span class="px-2 py-1 bg-white bg-opacity-20 rounded-full text-xs font-medium">
+                        {{ transcript.status }}
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Card Content -->
+            <div class="p-4">
+                <!-- Timestamp and Duration -->
+                <div class="flex justify-between items-center mb-3 text-sm text-gray-600">
+                    <div class="flex items-center gap-1">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        {{ transcript.timestamp.split(' ')[1] if ' ' in transcript.timestamp else transcript.timestamp }}
+                    </div>
+                    {% if transcript.duration %}
+                    <div class="flex items-center gap-1">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                        {{ transcript.duration }}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <!-- Date -->
+                <div class="text-sm text-gray-500 mb-3">
+                    {{ transcript.timestamp.split(' ')[0] if ' ' in transcript.timestamp else 'Unknown date' }}
+                </div>
+
+                <!-- Preview -->
+                <div class="text-gray-700 text-sm mb-4 leading-relaxed">
+                    {{ transcript.preview }}
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="flex gap-2 pt-2 border-t border-gray-200">
+                    <a href="/transcript/{{ transcript.filename }}" 
+                       class="flex-1 bg-blue-500 hover:bg-blue-600 text-white text-center py-2 rounded-lg transition duration-200 flex items-center justify-center gap-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                        </svg>
+                        View
+                    </a>
+                    <a href="/download/{{ transcript.filename }}" 
+                       class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg transition duration-200 flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <!-- Empty State -->
+    <div class="text-center py-16">
+        <div class="mb-6">
+            <svg class="w-24 h-24 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+        </div>
+        {% if search_query %}
+        <h2 class="text-2xl font-semibold text-gray-600 mb-2">No transcripts found</h2>
+        <p class="text-gray-500 mb-4">No transcripts match your search "{{ search_query }}"</p>
+        <a href="/" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition duration-200">
+            View all transcripts
+        </a>
+        {% else %}
+        <h2 class="text-2xl font-semibold text-gray-600 mb-2">No transcripts available</h2>
+        <p class="text-gray-500 mb-4">Transcripts will appear here once your Vogent automation script processes calls.</p>
+        <div class="space-y-2 text-sm text-gray-400">
+            <p>Make sure your automation script is running:</p>
+            <code class="bg-gray-100 px-3 py-1 rounded text-gray-600">python vogent_transcript_automation.py</code>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- Footer -->
+    <div class="mt-12 text-center text-gray-500 text-sm">
+        <p>Transcript Viewer • Built for Vogent Call Analysis</p>
+        {% if transcripts %}
+        <p class="mt-1">Showing {{ transcripts|length }} transcript(s)</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+============================================================
+VOGENT CALL TRANSCRIPT
+============================================================
+Dial ID: 85ffadee-9706-465a-8323-d4e5711a6b6a
+Generated: 2025-10-06 20:59:29
+Call Status: completed
+
+------------------------------------------------------------
+CONVERSATION TRANSCRIPT
+------------------------------------------------------------
+
+[001] HUMAN: Hi.
+
+[002] AI: Thanks for calling the Shiny Smiles appointment scheduling line. Could I please have your first and last name?
+
+[003] HUMAN: Rulitas.
+
+[004] AI: 
+
+[005] AI: Are you a new or returning patient?
+
+[006] HUMAN: With my name, repeat it to me.
+
+[007] AI: Sure, are you a new or returning patient?
+
+[008] HUMAN: Can you repeat my name to me?
+
+[009] AI: I'm sorry, I can't do that. Are you a new or returning patient?
+
+[010] HUMAN: I am a returning patient. What's your name again?
+
+[011] AI: 
+
+[012] AI: 
+
+[013] AI: Let me grab some available slots for the next few weeks.
+
+------------------------------------------------------------
+End of transcript - 13 total entries

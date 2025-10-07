@@ -1,0 +1,201 @@
+{
+  "agent": {
+    "defaultExtractorId": null,
+    "defaultVersionedPromptId": "20621200-58e0-4c5a-aae2-790b9dfe1846",
+    "defaultVoiceId": "78088995-77dc-46cc-9284-9607704b6507",
+    "id": "97512a3c-dd94-45fb-965c-e8d58e762fcb",
+    "idleMessageConfig": {
+      "enabled": false,
+      "idleDurationMilliseconds": 0,
+      "maxIdleMessages": 0
+    },
+    "language": "en-US",
+    "maxDurationSeconds": 10800,
+    "name": "doctors_inbound",
+    "transcriberParams": {
+      "type": "deepgram"
+    },
+    "utteranceDetectorConfig": {
+      "sensitivity": "MEDIUM"
+    }
+  },
+  "aiResult": {
+    "3766ef49-ca1f-4170-b6f2-e6f76d1bc7e8": {
+      "answer": "Reuben Thomas."
+    },
+    "91038251-6bdb-4a4e-8ebc-eadca8ab8477": {
+      "answer": "Returning"
+    },
+    "cdb0e35d-a2e5-4e6c-8bf6-dbb3e6a12c4f": {
+      "availabilities": [
+        {
+          "dayOfWeek": "Tuesday",
+          "duration": 60,
+          "startTime": "10/07/2025 6:00 AM"
+        },
+        {
+          "dayOfWeek": "Monday",
+          "duration": 60,
+          "startTime": "10/13/2025 8:00 AM"
+        },
+        {
+          "dayOfWeek": "Monday",
+          "duration": 60,
+          "startTime": "10/20/2025 12:00 PM"
+        }
+      ]
+    }
+  },
+  "durationSeconds": 60,
+  "endedAt": "2025-10-07T00:40:53.824569Z",
+  "fromNumberId": "794fb43b-e023-47d0-8654-e60e0c71704e",
+  "id": "fad4a7db-ec37-4ce7-994b-d26bf80772ce",
+  "inputs": {},
+  "recordings": [
+    {
+      "url": "https://api.vogent.ai/api/recordings/93834da9-1be6-4502-b9fd-339b981e4e0f"
+    }
+  ],
+  "startedAt": "2025-10-07T00:39:53.901993Z",
+  "status": "completed",
+  "systemResultType": "COUNTERPARTY_HANGUP",
+  "toNumber": "+17176493625",
+  "transcript": [
+    {
+      "detailType": null,
+      "endTimeMs": 8950,
+      "speaker": "HUMAN",
+      "startTimeMs": 8570,
+      "text": "Hello?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 14360,
+      "speaker": "AI",
+      "startTimeMs": 9720,
+      "text": "Thanks for calling the Shiny Smiles appointment scheduling line. Could I please have your first and last name?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 17000,
+      "speaker": "HUMAN",
+      "startTimeMs": 16020,
+      "text": "Reuben Thomas."
+    },
+    {
+      "detailType": "node-transition",
+      "functionCallId": "chatcmpl-tool-aa48e360e473485fbda0ef7ff3172958",
+      "nodeTransition": {
+        "toNodeId": "91038251-6bdb-4a4e-8ebc-eadca8ab8477",
+        "transitionData": {
+          "answer": "Reuben Thomas."
+        }
+      },
+      "speaker": "AI",
+      "text": ""
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 19740,
+      "speaker": "AI",
+      "startTimeMs": 18300,
+      "text": "Are you a new or returning patient?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 22560,
+      "speaker": "HUMAN",
+      "startTimeMs": 22060,
+      "text": "Returning."
+    },
+    {
+      "detailType": "node-transition",
+      "functionCallId": "chatcmpl-tool-11c592406ca24914a77a7cda43b7dde3",
+      "nodeTransition": {
+        "toNodeId": "cdb0e35d-a2e5-4e6c-8bf6-dbb3e6a12c4f",
+        "transitionData": {
+          "answer": "Returning"
+        }
+      },
+      "speaker": "AI",
+      "text": ""
+    },
+    {
+      "detailType": "node-transition",
+      "functionCallId": "chatcmpl-tool-11c592406ca24914a77a7cda43b7dde3",
+      "nodeTransition": {
+        "toNodeId": "0c82123d-ea9c-459b-8204-31a72a10f95d",
+        "transitionData": {
+          "availabilities": [
+            {
+              "dayOfWeek": "Tuesday",
+              "duration": 60,
+              "startTime": "10/07/2025 6:00 AM"
+            },
+            {
+              "dayOfWeek": "Monday",
+              "duration": 60,
+              "startTime": "10/13/2025 8:00 AM"
+            },
+            {
+              "dayOfWeek": "Monday",
+              "duration": 60,
+              "startTime": "10/20/2025 12:00 PM"
+            }
+          ]
+        }
+      },
+      "speaker": "AI",
+      "text": ""
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 31640,
+      "speaker": "AI",
+      "startTimeMs": 24460,
+      "text": "Let me grab some available slots for the next few weeks. Alright, let's see. We have an opening on Tuesday at 6 AM. Would that work for you?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 34610,
+      "speaker": "HUMAN",
+      "startTimeMs": 32820,
+      "text": "Yeah. Hello for me."
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 38900,
+      "speaker": "AI",
+      "startTimeMs": 35300,
+      "text": "Sure, I'll note that. We also have a slot on Monday at 8 AM. Does that fit your schedule?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 47250,
+      "speaker": "HUMAN",
+      "startTimeMs": 41879,
+      "text": "Just do you give me the best available? Spot? Just sign me up."
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 51400,
+      "speaker": "AI",
+      "startTimeMs": 48360,
+      "text": "Of course. We have a slot on Monday at 12 PM. Would you like to book that?"
+    },
+    {
+      "detailType": null,
+      "endTimeMs": 56560,
+      "speaker": "HUMAN",
+      "startTimeMs": 52200,
+      "text": "Yeah. I spoke it. Wait. Wait. Let me call you back."
+    },
+    {
+      "detailType": null,
+      "speaker": "AI",
+      "text": "<|hangup|>"
+    }
+  ],
+  "versionedPromptId": "20621200-58e0-4c5a-aae2-790b9dfe1846",
+  "voiceId": "78088995-77dc-46cc-9284-9607704b6507"
+}

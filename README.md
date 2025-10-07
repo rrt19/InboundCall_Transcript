@@ -1,240 +1,266 @@
-# Vogent Inbound Call Transcript Automation
+# 📞 Vogent Call Transcript System
 
-This Python application automatically retrieves and saves transcripts from Vogent inbound calls. It runs a Flask webhook server that receives notifications from Vogent when calls complete, then fetches and saves the transcripts without any manual intervention.
+A comprehensive automation system that captures, processes, and displays Vogent call transcripts in a beautiful web interface.
 
-## Features
+## 🌟 **What This System Does**
 
-- ✅ **Fully Automated**: No manual steps required after setup
-- ✅ **Real-time Processing**: Uses Vogent webhooks for immediate transcript retrieval
-- ✅ **Readable Output**: Saves transcripts in human-readable format
-- ✅ **Backup Data**: Also saves raw JSON data for debugging
-- ✅ **Error Handling**: Comprehensive logging and error recovery
-- ✅ **Manual Override**: API endpoint for manual transcript retrieval
-- ✅ **Health Monitoring**: Built-in health check endpoint
+This system consists of **two main components** that work together:
 
-## How It Works
+1. **📥 Transcript Automation** (`vogent_transcript_automation.py`)
+   - Automatically receives webhook notifications from Vogent when calls complete
+   - Fetches and saves call transcripts to your local system
+   - Runs continuously in the background to capture all calls
 
-1. **Inbound Call**: Someone calls your Vogent-linked phone number
-2. **AI Agent Handles Call**: Your configured Vogent agent answers and conducts the conversation
-3. **Webhook Notification**: Vogent sends a `dial.transcript` webhook when the transcript is ready
-4. **Automatic Retrieval**: The script fetches the transcript via Vogent API
-5. **File Saving**: Transcript is saved as a formatted text file in the `transcripts/` directory
+2. **🌐 Web Viewer** (`transcript_viewer.py`)  
+   - Provides a beautiful, chat-style interface to view your transcripts
+   - Shows conversations between Human (Customer) and AI (Agent) in separate bubbles
+   - Includes search functionality and easy downloading of transcripts
 
-## Quick Start
+## 🚀 **Quick Start Guide**
 
-### 1. Install Dependencies
+### **Step 1: Install Dependencies**
 
 ```powershell
-# Install Python packages
+# Install required Python packages
 pip install -r requirements.txt
 ```
 
-### 2. Configure Environment
+### **Step 2: Configure Your API Key**
 
-```powershell
-# Copy the example environment file
-copy .env.example .env
+Create a `.env` file in this directory with your Vogent API key:
+
+```
+VOGENT_API_KEY=your_api_key_here
 ```
 
-Edit `.env` and add your Vogent API key:
-```
-VOGENT_API_KEY=elto_YourActualAPIKeyHere
-```
+### **Step 3: Run Both Applications**
 
-### 3. Configure Vogent Webhooks
+**⚠️ IMPORTANT: You need to run BOTH scripts for full functionality!**
 
-In your Vogent dashboard:
-1. Go to **API Settings**
-2. Set **Webhook URL** to: `http://your-server:5000/webhook/vogent`
-3. Enable the `dial.transcript` event
-
-**Note**: For testing locally, use a tool like [ngrok](https://ngrok.com/) to expose your local server:
-```powershell
-# In another terminal
-ngrok http 5000
-# Use the ngrok URL as your webhook URL in Vogent
-```
-
-### 4. Run the Application
-
+#### **Terminal 1 - Transcript Automation (REQUIRED)**
 ```powershell
 python vogent_transcript_automation.py
 ```
+- This runs your webhook server on **http://localhost:5000**
+- Keeps running to automatically capture new call transcripts
+- **Must stay running** to receive webhooks from Vogent
 
-The server will start on port 5000 and begin listening for webhooks.
-
-## Usage
-
-### Automatic Operation
-
-Once running, the system operates completely automatically:
-
-1. When someone calls your Vogent number, the AI agent handles the call
-2. After the call ends and transcript is ready, Vogent sends a webhook
-3. The script automatically fetches and saves the transcript
-4. Files are saved in the `transcripts/` directory with timestamps
-
-### Manual Transcript Retrieval
-
-You can also manually fetch a transcript if needed:
-
+#### **Terminal 2 - Web Viewer (RECOMMENDED)**
 ```powershell
-# Using curl or similar HTTP client
-curl -X POST http://localhost:5000/manual-fetch/YOUR_DIAL_ID
+python transcript_viewer.py
+```
+- This runs your web interface on **http://localhost:5001**
+- Provides the beautiful chat-style interface for viewing transcripts
+- Can be stopped and restarted without losing functionality
+
+### **Step 4: Configure Vogent Webhook**
+
+In your Vogent dashboard, set your webhook URL to:
+```
+http://your-server-ip:5000/webhook/vogent
 ```
 
-### Monitoring
+### **Step 5: View Your Transcripts**
 
-Check if the service is running:
+Open your browser and go to:
+- **📋 Monitor automation**: http://localhost:5000 (basic dashboard)
+- **✨ View transcripts beautifully**: http://localhost:5001 (recommended interface)
+
+## 🎯 **How It Works**
+
+```
+[Call Ends] → [Webhook] → [Automation Script] → [Saves Transcript] → [Web Viewer Shows Chat]
+```
+
+1. **Call Completes**: When a Vogent call ends, Vogent sends a webhook
+2. **Automation Captures**: Your automation script receives the webhook and fetches the transcript
+3. **File Saved**: Transcript is saved as a `.txt` file in the `transcripts/` folder
+4. **Web Display**: The web viewer reads the file and displays it in a chat-style interface
+
+## 📁 **Project Structure**
+
+```
+InboundCall_Transcript/
+├── 📄 vogent_transcript_automation.py  # Main automation script
+├── 🌐 transcript_viewer.py             # Web interface
+├── 📋 requirements.txt                 # Python dependencies
+├── 📝 README.md                        # This file
+├── 🔧 .env                            # API configuration (create this)
+├── 📁 transcripts/                     # Saved transcript files
+├── 📁 templates/                       # Web interface templates
+│   ├── base.html
+│   ├── index.html
+│   └── transcript.html
+└── 📊 vogent_automation.log            # System logs
+```
+
+## 🖥️ **User Interface Features**
+
+### **Main Dashboard (localhost:5001)**
+- **📱 Responsive Design**: Works on desktop, tablet, and mobile
+- **🔍 Search Functionality**: Search transcripts by content, date, or ID
+- **📊 Call Overview**: See call duration, status, and participant count
+- **💾 Easy Downloads**: Download original transcript files
+
+### **Transcript Viewer**
+- **💬 Chat-Style Display**: 
+  - 🟢 **Human (Customer)**: Green bubbles on the left with "H" avatar
+  - 🔵 **AI (Agent)**: Blue bubbles on the right with "AI" avatar
+- **📋 Copy Functionality**: One-click copy of entire conversations
+- **📈 Call Metadata**: Duration, status, timestamp, and message count
+- **📝 Call Summaries**: Automatically extracted from transcripts
+
+## ⚙️ **Configuration Options**
+
+### **Environment Variables (.env file)**
+```env
+# Required
+VOGENT_API_KEY=your_vogent_api_key_here
+
+# Optional
+TRANSCRIPTS_DIR=transcripts
+LOG_LEVEL=INFO
+```
+
+### **Webhook Configuration**
+Your webhook URL should be configured in Vogent to point to:
+```
+http://your-domain.com:5000/webhook/vogent
+```
+
+For local testing with ngrok:
 ```powershell
+# Install ngrok and expose port 5000
+ngrok http 5000
+# Use the ngrok URL in your Vogent webhook settings
+```
+
+## 🔧 **Troubleshooting**
+
+### **No Transcripts Appearing?**
+1. ✅ Check that `vogent_transcript_automation.py` is running
+2. ✅ Verify your API key in the `.env` file
+3. ✅ Confirm webhook URL is correctly configured in Vogent
+4. ✅ Check the logs in `vogent_automation.log`
+
+### **Web Interface Not Loading?**
+1. ✅ Ensure `transcript_viewer.py` is running
+2. ✅ Check that port 5001 is not blocked
+3. ✅ Verify Python dependencies are installed
+
+### **Conversation Not Parsing?**
+1. ✅ Check that transcript files are in the `transcripts/` folder
+2. ✅ Verify transcript format matches expected patterns
+3. ✅ Look for parsing errors in the console output
+
+## 📊 **Monitoring and Logs**
+
+### **Log Files**
+- `vogent_automation.log`: Contains all automation activity, errors, and webhook events
+- Console output: Real-time status updates and debug information
+
+### **API Endpoints**
+- `GET /health`: System health check
+- `GET /notifications`: Recent system notifications  
+- `GET /recent-dials`: List of recent dial attempts
+- `POST /webhook/vogent`: Webhook endpoint for Vogent
+
+## 🔒 **Security Considerations**
+
+- **API Keys**: Never commit your `.env` file to version control
+- **Webhook Security**: Consider implementing webhook signature validation
+- **Network Access**: Ensure proper firewall configuration for webhook access
+- **Data Privacy**: Transcript files contain sensitive call data - secure appropriately
+
+## 🆘 **Support and Maintenance**
+
+### **Regular Maintenance**
+- Monitor log files for errors or warnings
+- Periodically restart both scripts for optimal performance
+- Keep Python dependencies updated
+
+### **Common Commands**
+```powershell
+# Check system status
 curl http://localhost:5000/health
+
+# View recent notifications
+curl http://localhost:5000/notifications
+
+# Restart automation (if needed)
+# Stop with Ctrl+C, then restart
+python vogent_transcript_automation.py
+
+# View all transcripts via API
+curl http://localhost:5001/api/transcripts
 ```
 
-## File Output
+## 📈 **Advanced Usage**
 
-The system creates two files for each call:
-
-### 1. Formatted Transcript (`transcript_[dial_id]_[timestamp].txt`)
-```
-============================================================
-VOGENT CALL TRANSCRIPT
-============================================================
-Dial ID: 5a6c6190-db20-4d8e-86a9-79a6af292dea
-Generated: 2025-10-05 14:30:22
-Agent ID: 97512a3c-dd94-45fb-965c-e8d58e762fcb
-Caller Number: +18001234567
-Call Status: completed
-
-------------------------------------------------------------
-CONVERSATION TRANSCRIPT
-------------------------------------------------------------
-
-[001] AI: Hello, thank you for calling Dr. Smith's office. How can I help you today?
-
-[002] HUMAN: Hi, I need to schedule an appointment for a check-up.
-
-[003] AI: I'd be happy to help you schedule that appointment. Could you please provide me with your full name?
-
-[004] HUMAN: Sure, it's John Doe.
-
-------------------------------------------------------------
-End of transcript - 4 total entries
-```
-
-### 2. Raw JSON Data (`raw_dial_[dial_id]_[timestamp].json`)
-Contains the complete API response from Vogent for debugging purposes.
-
-## Configuration Options
-
-### Environment Variables
-
-| Variable | Required | Default | Description |
-|----------|----------|---------|-------------|
-| `VOGENT_API_KEY` | Yes | - | Your Vogent API key (starts with `elto_`) |
-| `PORT` | No | 5000 | Port for the webhook server |
-| `DEBUG` | No | False | Enable Flask debug mode |
-
-### Directory Structure
-
-```
-Inbound_transcript/
-├── vogent_transcript_automation.py  # Main application
-├── requirements.txt                 # Python dependencies
-├── .env                            # Your configuration (create from .env.example)
-├── .env.example                    # Configuration template
-├── transcripts/                    # Output directory (auto-created)
-│   ├── transcript_[id]_[time].txt  # Formatted transcripts
-│   └── raw_dial_[id]_[time].json   # Raw API responses
-└── vogent_automation.log           # Application logs
-```
-
-## API Endpoints
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/webhook/vogent` | POST | Receives Vogent webhooks |
-| `/health` | GET | Health check |
-| `/manual-fetch/<dial_id>` | POST | Manually fetch a transcript |
-
-## Troubleshooting
-
-### Common Issues
-
-**1. "VOGENT_API_KEY environment variable not set!"**
-- Solution: Make sure you've created a `.env` file with your API key
-
-**2. Webhooks not being received**
-- Check that your webhook URL is correctly configured in Vogent
-- Ensure your server is accessible from the internet (use ngrok for local testing)
-- Verify the webhook URL includes the correct path: `/webhook/vogent`
-
-**3. Transcript not found**
-- The transcript might not be ready immediately after the call
-- The script includes automatic retry logic
-- Check the logs for specific error messages
-
-**4. Connection errors**
-- Verify your internet connection
-- Check if the Vogent API is accessible: `https://api.vogent.ai/api`
-- Ensure your API key is valid and has the correct permissions
-
-### Logging
-
-The application logs to both:
-- Console output (visible when running)
-- `vogent_automation.log` file
-
-Log levels:
-- **INFO**: Normal operations (calls received, transcripts saved)
-- **WARNING**: Non-critical issues (transcript not immediately ready)
-- **ERROR**: Critical problems (API failures, file write errors)
-
-### Testing
-
-You can test the webhook endpoint manually:
-
+### **Multiple Environments**
+You can run multiple instances for different environments:
 ```powershell
-# Test dial.transcript webhook
-curl -X POST http://localhost:5000/webhook/vogent \
-  -H "Content-Type: application/json" \
-  -d '{
-    "event": "dial.transcript",
-    "payload": {
-      "dial_id": "test-dial-id-123"
-    }
-  }'
+# Production
+VOGENT_API_KEY=prod_key python vogent_transcript_automation.py
+
+# Development  
+VOGENT_API_KEY=dev_key python vogent_transcript_automation.py
 ```
 
-## Production Deployment
+### **Custom Transcript Processing**
+The system automatically handles various transcript formats:
+- Vogent numbered format: `[001] HUMAN:` / `[002] AI:`
+- Simple format: `Agent:` / `Customer:`
+- Custom speaker identification and message parsing
 
-For production use:
+## 💡 **Quick Reference**
 
-1. **Use a proper WSGI server** (not Flask's dev server):
+| Component | Purpose | Port | Status |
+|-----------|---------|------|--------|
+| Automation Script | Captures transcripts | 5000 | Must Run |
+| Web Viewer | Display interface | 5001 | Recommended |
+
+**🔥 Pro Tip**: Keep both terminals open and running for the best experience. The automation script captures calls automatically, while the web viewer gives you a beautiful interface to review them!
+
+## 🎬 **Getting Started Walkthrough**
+
+### **First Time Setup (5 minutes)**
+
+1. **Open PowerShell** in this project directory
+
+2. **Install everything**:
    ```powershell
-   pip install gunicorn
-   gunicorn -w 4 -b 0.0.0.0:5000 vogent_transcript_automation:app
+   pip install -r requirements.txt
    ```
 
-2. **Set up reverse proxy** (nginx/Apache) for HTTPS
-3. **Configure proper logging** and log rotation
-4. **Set up monitoring** and alerting
-5. **Secure your server** and restrict access to webhook endpoints
+3. **Create your API configuration**:
+   ```powershell
+   # Create .env file with your API key
+   echo "VOGENT_API_KEY=your_actual_api_key_here" > .env
+   ```
 
-## Security Considerations
+4. **Start the automation** (Terminal 1):
+   ```powershell
+   python vogent_transcript_automation.py
+   ```
+   ✅ Should show: "Starting webhook server on port 5000"
 
-- Keep your Vogent API key secure and never commit it to version control
-- Use HTTPS for webhook URLs in production
-- Consider implementing webhook signature verification
-- Restrict server access and use firewalls appropriately
-- Regularly rotate API keys and monitor for unauthorized access
+5. **Start the web viewer** (Terminal 2):
+   ```powershell
+   python transcript_viewer.py
+   ```
+   ✅ Should show: "Web interface available at http://localhost:5001"
 
-## Support
+6. **Test it works**:
+   - Open http://localhost:5001 in your browser
+   - You should see the transcript viewer interface
 
-For issues with:
-- **This script**: Check the logs and troubleshooting section above
-- **Vogent API**: Refer to [Vogent documentation](https://docs.vogent.ai)
-- **Webhook configuration**: Check your Vogent dashboard settings
+7. **Configure Vogent** (one-time setup):
+   - In Vogent dashboard, set webhook to: `http://your-server:5000/webhook/vogent`
+   - For local testing, use ngrok: `ngrok http 5000`
 
-## License
+**That's it!** Your system is now ready to automatically capture and display call transcripts! 🎉
 
-This automation script is provided as-is for use with the Vogent platform.
+---
+
+**Built for efficient Vogent call transcript management** 🚀
