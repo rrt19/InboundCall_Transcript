@@ -1,39 +1,44 @@
 ============================================================
 VOGENT CALL TRANSCRIPT
 ============================================================
-Dial ID: 85ffadee-9706-465a-8323-d4e5711a6b6a
-Generated: 2025-10-06 20:59:29
+Dial ID: 92823c76-836b-4cbd-a4e1-7f52b497d02a
+Generated: 2025-10-16 05:57:55
 Call Status: completed
 
 ------------------------------------------------------------
 CONVERSATION TRANSCRIPT
 ------------------------------------------------------------
 
-[001] HUMAN: Hi.
+[001] HUMAN: Hello?
 
 [002] AI: Thanks for calling the Shiny Smiles appointment scheduling line. Could I please have your first and last name?
 
-[003] HUMAN: Rulitas.
+[003] HUMAN: Ruben Thomas.
 
 [004] AI: 
 
 [005] AI: Are you a new or returning patient?
 
-[006] HUMAN: With my name, repeat it to me.
+[006] HUMAN: I am a new patient.
 
-[007] AI: Sure, are you a new or returning patient?
+[007] AI: 
 
-[008] HUMAN: Can you repeat my name to me?
+[008] AI: 
 
-[009] AI: I'm sorry, I can't do that. Are you a new or returning patient?
+[009] AI: AI: Got it. Will you be using insurance?  
+ Which insurance provider will you be using?
 
-[010] HUMAN: I am a returning patient. What's your name again?
+[010] HUMAN: I wouldn't be using Highmark.
 
-[011] AI: 
+[011] AI: AI: Understood. Which insurance provider will you be using then?
 
-[012] AI: 
+[012] HUMAN: I'm using Heimarcillo dummy.
 
-[013] AI: Let me grab some available slots for the next few weeks.
+[013] AI: 
+
+[014] AI: 
+
+[015] AI: Let me grab some available slots for the next few weeks.
 
 ------------------------------------------------------------
-End of transcript - 13 total entries
+End of transcript - 15 total entries

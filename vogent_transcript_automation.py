@@ -451,7 +451,7 @@ class AutoDiscoveryService:
         
         if dial_info:
             transcript_file = self.transcript_processor.save_transcript(dial_info)
-            json_file = self.transcript_processor.save_raw_json(dial_info)
+            # json_file = self.transcript_processor.save_raw_json(dial_info)  # Disabled - only saving .txt files
             
             if transcript_file:
                 self.notification_service.add_notification(
@@ -656,7 +656,7 @@ def _process_dial_from_webhook(dial_id: str, event_type: str = None) -> bool:
             
             # Save transcript and raw data
             transcript_file = transcript_processor.save_transcript(dial_info)
-            json_file = transcript_processor.save_raw_json(dial_info)
+            # json_file = transcript_processor.save_raw_json(dial_info)  # Disabled - only saving .txt files
             
             if transcript_file:
                 notification_service.add_notification(
@@ -707,7 +707,7 @@ def test_call_fetch(dial_id: str):
         
         if dial_info:
             transcript_file = transcript_processor.save_transcript(dial_info)
-            json_file = transcript_processor.save_raw_json(dial_info)
+            # json_file = transcript_processor.save_raw_json(dial_info)  # Disabled - only saving .txt files
             
             return f"""
             <html>
@@ -717,7 +717,6 @@ def test_call_fetch(dial_id: str):
                 <p><strong>Dial ID:</strong> {dial_id}</p>
                 <p><strong>Status:</strong> {'✅ Success' if transcript_file else '❌ Failed'}</p>
                 <p><strong>Transcript File:</strong> {transcript_file or 'None'}</p>
-                <p><strong>JSON File:</strong> {json_file or 'None'}</p>
                 
                 <h3>Raw API Response:</h3>
                 <pre style="background: #f5f5f5; padding: 15px; overflow: auto;">
@@ -814,7 +813,7 @@ def handle_transcript_ready(payload: Dict):
     
     # Save the transcript
     transcript_file = transcript_processor.save_transcript(dial_info)
-    json_file = transcript_processor.save_raw_json(dial_info)
+    # json_file = transcript_processor.save_raw_json(dial_info)  # Disabled - only saving .txt files
     
     if transcript_file:
         logger.info(f"Successfully processed transcript for dial {dial_id}")
@@ -1044,13 +1043,12 @@ def manual_fetch(dial_id: str):
         
         # Save the transcript
         transcript_file = transcript_processor.save_transcript(dial_info)
-        json_file = transcript_processor.save_raw_json(dial_info)
+        # json_file = transcript_processor.save_raw_json(dial_info)  # Disabled - only saving .txt files
         
         return jsonify({
             "status": "success",
             "dial_id": dial_id,
-            "transcript_file": transcript_file,
-            "json_file": json_file
+            "transcript_file": transcript_file
         })
         
     except Exception as e:
