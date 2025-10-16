@@ -2857,3 +2857,18 @@
 2025-10-06 20:59:33,609 - INFO - 127.0.0.1 - - [06/Oct/2025 20:59:33] "POST /webhook/vogent HTTP/1.1" 200 -
 2025-10-06 21:03:44,088 - INFO - Shutting down...
 2025-10-06 21:03:49,088 - INFO - Auto-discovery service stopped
+2025-10-15 20:50:41,740 - INFO - Starting Vogent Transcript Automation Server
+2025-10-15 20:50:41,741 - INFO - Transcripts will be saved to: transcripts
+2025-10-15 20:50:44,531 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-15 20:50:44,531 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-15 20:50:44,532 - INFO - Recent dials API not available - running in webhook-only mode
+2025-10-15 20:50:44,532 - INFO - Auto-discovery service started (checking every 300s)
+2025-10-15 20:50:44,536 - INFO - Auto-discovery service started automatically
+2025-10-15 20:50:44,547 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.6:5000
+2025-10-15 20:50:44,548 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-15 20:50:47,124 - WARNING - Could not retrieve recent dials - API endpoint may not be available
+2025-10-15 20:50:47,124 - INFO - This is normal - the system will rely on webhooks for automation
+2025-10-15 20:50:47,126 - INFO - Recent dials API unavailable - switching to webhook-only mode
